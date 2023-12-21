@@ -1,4 +1,4 @@
-# 100 Days Of Code - Log
+<!-- # 100 Days Of Code - Log
 
 ## Examples section
 
@@ -21,7 +21,7 @@
 **Link(s) to work**
 1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
 2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
-
+ -->
 ## Actual diary
 
 ### Day 0: December 18, 2023
@@ -31,8 +31,17 @@
   2. **Learning about Docker**: Using the Platzi's Docker course [Curso de Docker](https://platzi.com/cursos/docker/)
   3. **Learning about Typescript**: Using mainly Typescript docs and other resources if I hit a hard problem [Typescript Docs](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
   4. **Building side projects**: This one is hard to predict, because I have some ideas but none of them concrete, so during the above learning phase, I'll use some time to search for ideas of projects that could be a rewarding challenge to build.
+
     - **A webchat app**: Because currently I don't know how to work with websockets.
+    - **Improving my current projects**: There are things I can improve of how I tackle new problems and issues. 
 
 **Thoughts:** I know that I don't need a perfect plan from day 0, but a flexible one, due to my current schedule.
 
+### Day 1: December 20, 2023
+
+**Today's Progress**:
+  - **Async-Landing**: Add links to my updated social media, own website and improving navbar links.
+  - **The Last Algorithm Course You'll Need**: Today I advanced two classes; Arrays vs Linked Lists and ArrayList.
+
+**Thoughts** I wonder if I should share my current notes taken in Draw.io, because until I finish a course, they're really changing every single class / research I made.
 
