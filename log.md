@@ -1,5 +1,5 @@
-<!-- # 100 Days Of Code - Log
-
+# 100 Days Of Code - Log
+<!--
 ## Examples section
 
 ### Day 0: February 30, 2016 (Example 2)
@@ -44,4 +44,15 @@
   - **The Last Algorithm Course You'll Need**: Today I advanced two classes; Arrays vs Linked Lists and ArrayList.
 
 **Thoughts** I wonder if I should share my current notes taken in Draw.io, because until I finish a course, they're really changing every single class / research I made.
+
+### Day 2: December 21, 2023
+
+**Today's Progress**:
+  - **The Last Algorithm Course You'll Need**: Today I advanced one class; ArrayBuffer or also called Ring Buffers.
+
+**Thoughts**: Today I did two things:
+  - Accidentally erased my last week notes from the course and restoring them from scratch took me most of today's hour.
+    - It happened because I forgot to save a backup of the .mozilla folder
+  - Trying to understand how that recycle of space works on the Ring Buffers, actually, I still don't understanding it well, so I'll search more about them tomorrow.
+Also, I really wanted to advance more but today I didn't manage well my time, so, I know what I have to prioritize.
 
