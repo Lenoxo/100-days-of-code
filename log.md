@@ -22,39 +22,9 @@
 1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
 2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
  -->
-## Actual diary
+## Actual diary - Organized from newer to older dates, like a Stack
 
-### Day 0: December 18, 2023
-
-**Today's Progress**: Set up the learning plan, I'll do the following during the next 100 days:
-  1. **Learning about DSA**: Using the free course from Frontend Masters [The Last Algorithm Course You'll Need](https://frontendmasters.com/courses/algorithms/)
-  2. **Learning about Docker**: Using the Platzi's Docker course [Curso de Docker](https://platzi.com/cursos/docker/)
-  3. **Learning about Typescript**: Using mainly Typescript docs and other resources if I hit a hard problem [Typescript Docs](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
-  4. **Building side projects**: This one is hard to predict, because I have some ideas but none of them concrete, so during the above learning phase, I'll use some time to search for ideas of projects that could be a rewarding challenge to build.
-
-    - **A webchat app**: Because currently I don't know how to work with websockets.
-    - **Improving my current projects**: There are things I can improve of how I tackle new problems and issues. 
-
-**Thoughts:** I know that I don't need a perfect plan from day 0, but a flexible one, due to my current schedule.
-
-### Day 1: December 20, 2023
-
-**Today's Progress**:
-  - **Async-Landing**: Add links to my updated social media, own website and improving navbar links.
-  - **The Last Algorithm Course You'll Need**: Today I advanced two classes; Arrays vs Linked Lists and ArrayList.
-
-**Thoughts** I wonder if I should share my current notes taken in Draw.io, because until I finish a course, they're really changing every single class / research I made.
-
-### Day 2: December 21, 2023
-
-**Today's Progress**:
-  - **The Last Algorithm Course You'll Need**: Today I advanced one class; ArrayBuffer or also called Ring Buffers.
-
-**Thoughts**: Today I did two things:
-  - Accidentally erased my last week notes from the course and restoring them from scratch took me most of today's hour.
-    - It happened because I forgot to save a backup of the .mozilla folder
-  - Trying to understand how that recycle of space works on the Ring Buffers, actually, I still don't understanding it well, so I'll search more about them tomorrow.
-Also, I really wanted to advance more but today I didn't manage well my time, so, I know what I have to prioritize.
+<img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
 ### Day 3: December 22, 2023
 
@@ -74,3 +44,35 @@ Also, I really wanted to advance more but today I didn't manage well my time, so
 **Thoughts**: Today I advanced more than yesterday, and also learned how, a project is managed professionally, thanks to a great resource by Bob Fornal, he always has something valuable to teach.
 
 Well, other thing I would like to mention is that I'm still kind a newbie with Twitter. So 1 step at a time.
+
+### Day 2: December 21, 2023
+
+**Today's Progress**:
+  - **The Last Algorithm Course You'll Need**: Today I advanced one class; ArrayBuffer or also called Ring Buffers.
+
+**Thoughts**: Today I did two things:
+  - Accidentally erased my last week notes from the course and restoring them from scratch took me most of today's hour.
+    - It happened because I forgot to save a backup of the .mozilla folder
+  - Trying to understand how that recycle of space works on the Ring Buffers, actually, I still don't understanding it well, so I'll search more about them tomorrow.
+Also, I really wanted to advance more but today I didn't manage well my time, so, I know what I have to prioritize.
+
+### Day 1: December 20, 2023
+
+**Today's Progress**:
+  - **Async-Landing**: Add links to my updated social media, own website and improving navbar links.
+  - **The Last Algorithm Course You'll Need**: Today I advanced two classes; Arrays vs Linked Lists and ArrayList.
+
+**Thoughts** I wonder if I should share my current notes taken in Draw.io, because until I finish a course, they're really changing every single class / research I made.
+
+### Day 0: December 18, 2023
+
+**Today's Progress**: Set up the learning plan, I'll do the following during the next 100 days:
+  1. **Learning about DSA**: Using the free course from Frontend Masters [The Last Algorithm Course You'll Need](https://frontendmasters.com/courses/algorithms/)
+  2. **Learning about Docker**: Using the Platzi's Docker course [Curso de Docker](https://platzi.com/cursos/docker/)
+  3. **Learning about Typescript**: Using mainly Typescript docs and other resources if I hit a hard problem [Typescript Docs](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+  4. **Building side projects**: This one is hard to predict, because I have some ideas but none of them concrete, so during the above learning phase, I'll use some time to search for ideas of projects that could be a rewarding challenge to build.
+
+    - **A webchat app**: Because currently I don't know how to work with websockets.
+    - **Improving my current projects**: There are things I can improve of how I tackle new problems and issues. 
+
+**Thoughts:** I know that I don't need a perfect plan from day 0, but a flexible one, due to my current schedule.
