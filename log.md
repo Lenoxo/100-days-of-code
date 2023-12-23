@@ -56,3 +56,21 @@
   - Trying to understand how that recycle of space works on the Ring Buffers, actually, I still don't understanding it well, so I'll search more about them tomorrow.
 Also, I really wanted to advance more but today I didn't manage well my time, so, I know what I have to prioritize.
 
+### Day 3: December 22, 2023
+
+**Today's Progress**:
+  - **The Last Algorithm Course You'll Need**: Today I advanced three classes; Data Structures Q&A, Recursion and Path Finding: Base Case. (Which is the first part of recursion implementation)
+    - Also, in this same topic, I found a great playlist in YouTube where a developer explains how different Data Structures are implemented in Typescript: [DataStructures List](https://www.youtube.com/playlist?list=PLn4fTSbSpY5cL4_0MP83wq5khbmG3IKKd)
+
+  - **Improving my current projects**: According to an excellent video I've seen today: [Link to the video](https://www.youtube.com/watch?v=N7pXEy5i-Vs), now I'll be improving continuously all my current projects adding / setting up this:
+
+    1. Code clarity: Making consistent the way I format code
+      - Unit testing: Just for the critical features.
+    2. Good branching: Using an issues / functionalities based branching and PR
+    3. Good issue management: Using mainly Github Projects
+    4. CI / CD: In some projects I have this already
+    - Today, I advanced with that issue management in [DevShop API](https://github.com/Lenoxo/DevShop)
+
+**Thoughts**: Today I advanced more than yesterday, and also learned how, a project is managed professionally, thanks to a great resource by Bob Fornal, he always has something valuable to teach.
+
+Well, other thing I would like to mention is that I'm still kind a newbie with Twitter. So 1 step at a time.
