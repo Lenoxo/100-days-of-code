@@ -26,6 +26,15 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 4: December 24, 2023 - Merry Christmas!
+
+**Today's Progress**:
+  - **The Last Algorithm Course You'll Need**: Today I advanced just one class, and also, because currently, after doing the exercise, I'm even more confused about how to implement recursion, so, later or next day, I'll practice some time with other resources to understand better how recursion works.  
+
+**Thoughts**: Yesterday, I missed a day, for something that was out of my control at that time, more specifically, working and helping with a relative throw all day, and when I finished, I just had time to go to sleep and that's it.
+
+Now, I think I could handle it better, waking up earlier to practice 1 hour before anything else in my day.
+
 ### Day 3: December 22, 2023
 
 **Today's Progress**:
