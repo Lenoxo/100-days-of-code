@@ -26,6 +26,17 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 5: December 25, 2023
+
+**Today's Progress**:
+  - **The Last Algorithm Course You'll Need**: I dedicated today to practice and understand better recursion, and now I feel that, in an easy problem I understand how to apply it, also, all the exercises I did with it, are in one of my github repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/blob/main/src/JS-challenges/recursion.js)  
+    - Resources I used today:
+      - [Google DataStructures and Algorithms free course](https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/#sequence-9)
+      - [¿Qué es la Recursividad?](https://www.youtube.com/watch?v=YwRjEOFxvO0)
+      - chatgpt for creating some of the challenges.
+
+**Thoughts**: I really feel that is difficult for now to visualize how the functions recurse themselves in every case, I still don't get it for now.
+
 ### Day 4: December 24, 2023 - Merry Christmas!
 
 **Today's Progress**:
