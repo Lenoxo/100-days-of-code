@@ -28,6 +28,15 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 7: December 27, 2023
+
+**Today's Progress**:
+
+- [**"The Last Algorithm Course You'll Need"**](https://frontendmasters.com/courses/algorithms/): Today I advanced two classes in where I learned how to implement a **DoublyLinkedList**, but I wasn't able to finish today the implementation part. So, it's for tomorrow.
+  - Also, I did a brief recall of some stuff I was forgetting, like BinarySearch, the changes are in one of my repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/108ce293120b1d5d352be00f9bccd3c8902ead9e/src/DSA-challenges)
+
+**Thoughts**: I finally understood how recursion works in a basic level, with that being said, I have to admit that one of the things that slows me down for now is also learning how to use vim motions, but I'm getting used to them pretty quickly during these last couple of hours.
+
 ### Day 6: December 26, 2023
 
 **Today's Progress**:
@@ -113,8 +122,7 @@ Well, other thing I would like to mention is that I'm still kind a newbie with T
 3. **Learning about Typescript**: Using mainly Typescript docs and other resources if I hit a hard problem [Typescript Docs](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 4. **Building side projects**: This one is hard to predict, because I have some ideas but none of them concrete, so during the above learning phase, I'll use some time to search for ideas of projects that could be a rewarding challenge to build.
 
-
-    - **A webchat app**: Because currently I don't know how to work with websockets.
-    - **Improving my current projects**: There are things I can improve of how I tackle new problems and issues.
+   - **A webchat app**: Because currently I don't know how to work with websockets.
+   - **Improving my current projects**: There are things I can improve of how I tackle new problems and issues.
 
 **Thoughts:** I know that I don't need a perfect plan from day 0, but a flexible one, due to my current schedule.
