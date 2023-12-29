@@ -28,6 +28,16 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 8: December 28, 2023
+
+**Today's Progress**:
+
+- [**"The Last Algorithm Course You'll Need"**](https://frontendmasters.com/courses/algorithms/): Today I advanced five classes, where I learned a bit of how to debug a a **DoublyLinkedList**. Also, I learned about what is a tree, what is a traverse a tree, and how to implement tree different ways to traverse a binary tree by depth first:
+  - **PreOrder Traverse**, **In Order Traverse** and **PostOrder Traverse**
+  - As always, all the exercises I did, are in one of my repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/33f9ecde3a6b06470d8b8cf91db01194a69f08ee)
+
+**Thoughts**: Today I advanced more, also, I had a bit of time where I organized my notes and also did a bit of priming for the next DS I'll be learning during the next days, if I have more time, I'll organize more my other repos following day 3 advice.
+
 ### Day 7: December 27, 2023
 
 **Today's Progress**:
