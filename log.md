@@ -37,7 +37,7 @@
     - `In Depth First Search:` You're implicitly using a Stack, so it preserves the shape / order of the structure.
     That makes it perfect to compare by shape Binary Trees.
     - `In Breath First Search:` You're using implicitly a Queue, so it doesn't preserve shape like a Stack would.
-  - As always, all the exercises I did, are in one of my repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/33f9ecde3a6b06470d8b8cf91db01194a69f08ee)
+  - As always, all the exercises I did, are in one of my repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/a2b36b999d7db7572eddc88fe51cfbc3d8114c40)
 
 **Thoughts**: Today I had less time but advanced all I could, and after I finish this course, I want to implement all of this in my current and coming projects, this last part about Depth and Breath search in Binary Trees captured my attention.
 
