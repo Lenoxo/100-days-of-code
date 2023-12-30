@@ -28,6 +28,19 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 9: December 29, 2023
+
+**Today's Progress**:
+
+- [**"The Last Algorithm Course You'll Need"**](https://frontendmasters.com/courses/algorithms/): Today I advanced four classes, where I learned what is Search by Breath First in Binary Trees, how to implement it, how to consider using this one or Depth First Search in Binary Trees, and lastly, how to compare binary trees both in structure and values.
+  - **Bottom Line:**
+    - `In Depth First Search:` You're implicitly using a Stack, so it preserves the shape / order of the structure.
+    That makes it perfect to compare by shape Binary Trees.
+    - `In Breath First Search:` You're using implicitly a Queue, so it doesn't preserve shape like a Stack would.
+  - As always, all the exercises I did, are in one of my repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/33f9ecde3a6b06470d8b8cf91db01194a69f08ee)
+
+**Thoughts**: Today I had less time but advanced all I could, and after I finish this course, I want to implement all of this in my current and coming projects, this last part about Depth and Breath search in Binary Trees captured my attention.
+
 ### Day 8: December 28, 2023
 
 **Today's Progress**:
