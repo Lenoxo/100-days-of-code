@@ -35,7 +35,7 @@
 - [**"The Last Algorithm Course You'll Need"**](https://frontendmasters.com/courses/algorithms/): Today I advanced five classes, where I learned how to implement Depth First Search in Binary Search Trees, and the basic theory behind how to find values, insert new nodes and remove them from the binary tree.
   - **Bottom Line:**
     - In a binary search tree a rule that always has to be true, is that the nodes at the left of the current node, should have values <= to the current node value. And the right nodes values, should be > the current node value.
-  - As always, all the exercises I did, are in one of my repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/a2b36b999d7db7572eddc88fe51cfbc3d8114c40)
+  - As always, all the exercises I did, are in one of my repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/e5164b0b3f20788a9302cb8a2a695e21f54b7b40)
 
 **Thoughts**: Today I had even less time than yesterday, just an hour, but enough time to complete today's challenge, so, I'm happy with it.
 ### Day 9: December 29, 2023
