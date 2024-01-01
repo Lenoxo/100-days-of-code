@@ -28,6 +28,16 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 11: December 31, 2023
+
+**Today's Progress**:
+
+- [**"The Last Algorithm Course You'll Need"**](https://frontendmasters.com/courses/algorithms/): Today I advanced one class, where I learned what is a heap, and how they change how you reference your parent and child nodes, without doing it using references like a linked list, but more like an ArrayList.
+- Also, I didn't manage to complete the implementation part, so I hope tomorrow I finish it.
+- **You can say, priority queue**
+
+**Thoughts**: Today was very difficult to find this hour to practice, every 3 to 4 minutes were interruptions, but I understand why, so no problem, for today I did my best.
+
 ### Day 10: December 30, 2023
 
 **Today's Progress**:
