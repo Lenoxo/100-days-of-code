@@ -28,6 +28,14 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 12: January 2, 2024 - Happy New Year!
+
+**Today's Progress**:
+
+- [**"The Last Algorithm Course You'll Need"**](https://frontendmasters.com/courses/algorithms/): Today I advanced two classes, where I implemented a heap and lastly, learned about tries, and how they are often used for building autocompletion programs.
+
+**Thoughts**: Well, yesterday I spent all my time with my family so, my bad, I had to save some more time to practice this programming skill.
+
 ### Day 11: December 31, 2023
 
 **Today's Progress**:
