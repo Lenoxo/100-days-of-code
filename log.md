@@ -33,6 +33,7 @@
 **Today's Progress**:
 
 - [**"The Last Algorithm Course You'll Need"**](https://frontendmasters.com/courses/algorithms/): Today I advanced two classes, where I implemented a heap and lastly, learned about tries, and how they are often used for building autocompletion programs.
+  - As always, all the exercises I did, are in one of my repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/7ee7cda9807556e4e7cc93ace8440b282db67ebf)
 
 **Thoughts**: Well, yesterday I spent all my time with my family so, my bad, I had to save some more time to practice this programming skill.
 
