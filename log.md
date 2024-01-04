@@ -28,6 +28,14 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 13: January 3, 2024 - Happy New Year!
+
+**Today's Progress**:
+
+- [**"The Last Algorithm Course You'll Need"**](https://frontendmasters.com/courses/algorithms/): Today I advanced one class, where I learned about what are graphs (every tree is a graph, but not every graph is a tree), and key terminology to work with them.
+
+**Thoughts**: Today because I had some private problems, I didn't manage to save time to practice in the morning, I would like to try it tomorrow or past tomorrow to make it work.
+
 ### Day 12: January 2, 2024 - Happy New Year!
 
 **Today's Progress**:
@@ -35,7 +43,7 @@
 - [**"The Last Algorithm Course You'll Need"**](https://frontendmasters.com/courses/algorithms/): Today I advanced two classes, where I implemented a heap and lastly, learned about tries, and how they are often used for building autocompletion programs.
   - As always, all the exercises I did, are in one of my repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/7ee7cda9807556e4e7cc93ace8440b282db67ebf)
 
-**Thoughts**: Well, yesterday I spent all my time with my family so, my bad, I had to save some more time to practice this programming skill.
+**Thoughts**: Well, yesterday I spent all my time with my family so, my bad, I should save some more time to practice this programming skill.
 
 ### Day 11: December 31, 2023
 
