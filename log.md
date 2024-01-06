@@ -28,6 +28,28 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 14: January 5, 2024
+
+**Today's Progress**:
+
+- [**"The Last Algorithm Course You'll Need"**](https://frontendmasters.com/courses/algorithms/): Today I advanced two classes, where I learned how are graphs commonly represented and how to implement a Breath First Search in a Graph Matrix.
+  - **In summary:**
+    - Ways to represent a graph:
+      - Adjacency List
+      - Adjacency Matrix
+    - BFS and DFS works very similar in graphs.
+    - In BFS, you need to return a path of how you got to the needle, so you need to save your seen indexes and previus indexes to nodes.
+  - As always, all the exercises I did, are in one of my repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/d980f47413f7ef40b423840eb74c76b464137104)
+
+**Thoughts**: Today was a challenging day, because I am currently learning how to use a tablet to take notes, but no the one that has screen, I'm taking about the screenless tablet, for now, it's taking me so much time to get used to it.
+
+And also, I had a confusion when I was trying to implement the BFS, and it was a fun mistake when I look back, because I was engaged with the way adjs indexes where looked, I firstly thought that you used adjs indexes **values** to get the prev and seen index in this code.
+
+But later on, I noticed that it wasn't that way, just using the iteration variable `i`, you use that to get the index of the related node.
+
+Here I attach part of today's notes to show this:
+<img width="690px" src="https://i.imgur.com/qfj7cot.png">
+
 ### Day 13: January 3, 2024 - Happy New Year!
 
 **Today's Progress**:
