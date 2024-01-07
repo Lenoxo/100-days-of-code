@@ -12,7 +12,6 @@
 
 **Link(s) to work**: [Calculator App](http://www.example.com)
 
-
 ### Day 1: June 27, Monday
 
 **Today's Progress**: I've gone through many exercises on FreeCodeCamp.
@@ -28,6 +27,21 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 15: January 6, 2024
+
+**Today's Progress**:
+
+- [**"The Last Algorithm Course You'll Need"**](https://frontendmasters.com/courses/algorithms/): Today I advanced two classes, where I implemented the Breath First Search in a Graph Adjacency Matrix, also, a Depth First Search in a Graph Adjacency List and lastly, I learned what is the Dijkstra's shortest path search in graphs.
+  - **In summary:**
+    - When you do a DFS in a Graph List, you need to return the path of how you got to the node.
+    - This path is not necessary the shortest one, but the first one built as I remember.
+    - In Dijkstra shortest path, it iterates looking for the shortest (smaller sum of distance weights) path to the objective node.
+  - As always, all the exercises I did today, are in one of my repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/73ac8b36616a1f3ffbbdeefa2998b60068fedd25)
+
+**Thoughts**: Uff, I'm getting used to use the pen tablet but not as fast as I would like, it stills taking me a lot of time writting, drawing and even moving around with the pen. Just a matter of practice and patience for now.
+
+Ah, and taking about the code itself, today I felt it was difficult to visualize how the Dijkstra shortest path works, but after rewatching last class more slowly, I figured out how to visualize it in my mind.
+
 ### Day 14: January 5, 2024
 
 **Today's Progress**:
@@ -38,10 +52,10 @@
       - Adjacency List
       - Adjacency Matrix
     - BFS and DFS works very similar in graphs.
-    - In BFS, you need to return a path of how you got to the needle, so you need to save your seen indexes and previus indexes to nodes.
+    - In BFS, you need to return a path of how you got to the needle, so you need to save your seen indexes and previous indexes to nodes.
   - As always, all the exercises I did, are in one of my repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/d980f47413f7ef40b423840eb74c76b464137104)
 
-**Thoughts**: Today was a challenging day, because I am currently learning how to use a tablet to take notes, but no the one that has screen, I'm taking about the screenless tablet, for now, it's taking me so much time to get used to it.
+**Thoughts**: Today was a challenging day, because I am currently learning how to use a tablet to take notes, but no the one that has screen, I'm taking about the screen less tablet, for now, it's taking me so much time to get used to it.
 
 And also, I had a confusion when I was trying to implement the BFS, and it was a fun mistake when I look back, because I was engaged with the way adjs indexes where looked, I firstly thought that you used adjs indexes **values** to get the prev and seen index in this code.
 
