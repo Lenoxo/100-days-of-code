@@ -27,6 +27,44 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 16: January 7, 2024
+
+**Today's Progress**:
+
+- [**"The Last Algorithm Course You'll Need"**](https://frontendmasters.com/courses/algorithms/): Today I advanced two classes, where I implemented the Dijkstra's shortest path search in a Graph Adjacency list, also I learned just briefly what are maps, and how the would be working underneath the hood in JS.
+  - **In summary:**
+    - JS doesn't have a good way to represent how the work within, but you trust the abstraction of using `{}` and `new Map()`
+    - They work using ArrayList and hashing for generating a way to insert data in the structure.
+  - As always, all the exercises I did today, are in one of my repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/39d0b6d72b9cd3936911f93e435672fdb6020b51)
+
+**Thoughts**: I'm getting more comfortable with the pen tablet, and I feel I need to seek a way to implement all these algorithms in my current and coming projects, and later on, search for a way to see how the maps work in js, not the abstracted way, but the raw way.
+
+And I had a funny bug when I was implementing the Dijkstra algorithm, because I forgot to iterate and just put an if statement, so it was just pushing to `out, curr` one time, not the full `prev` path:
+```js
+
+    const out: number[] = [];
+    let curr = sink;
+    // right way
+    while (prev[curr] !== -1) {
+        out.push(curr);
+        curr = prev[curr];
+    }
+    out.push(source);
+
+    return out.reverse();
+// --- ---- ---
+    const out: number[] = [];
+    let curr = sink;
+    // wrong way
+    if (prev[curr] !== -1) {
+        out.push(curr);
+        curr = prev[curr];
+    }
+    out.push(source);
+
+    return out.reverse();
+```
+
 ### Day 15: January 6, 2024
 
 **Today's Progress**:
