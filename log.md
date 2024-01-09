@@ -27,6 +27,26 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 17: January 8, 2024
+
+**Today's Progress**:
+
+- [**"The Last Algorithm Course You'll Need"**](https://frontendmasters.com/courses/algorithms/): Well, I finished this course, and yeah, I'll practice with neovim more after watching the last class. Today I implemented my first LRU cache and it was exciting.
+  - **In summary:**
+    - This are some notes I took today, hope it helps if you read this:
+      <img width="700px" src="https://i.imgur.com/sRGnNQa.png">
+    - If you want to build and LRU you would need to combine two data structures, DoublyLinkedList and Maps.
+    - And if you need in some part to get a key by it's value (in this case, node) you need to add another map to the recipe.
+  - As always, all the exercises I did today, are in one of my repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/15766854901f185d9700b7f9c9db416319149718)
+
+**Thoughts**: I'm getting more comfortable with the pen tablet, my third day using it and at least, I write readable letters now, and I think it is a really good coincidence that the last message from the course by Prime, was my yesterday Thoughts, seek and improve using this tools, to create really good things, and using those great opportunities I have right now, for me, and also, taking into account that there are a lot of people that don't have such opportunities like I have.
+
+I'm really grateful with that part of my life, in fact, without entering in too much details, I know a few people that are currently in a bad situation, for now I can't help them, but if I improve and get better in this field, I'll have resources and ways to help them.
+
+And I think for me completing this course was a good challenge, because currently I still learning English by myself, and I didn't know anything about Typescript, never used it before. It took me more time than expected also because I had knowledge gaps in math, more related to how to manage all the variables using **BigO**. I identified what I would like to improve in Typescript and Math, so maybe I'll checkout the Typescript docs / algebra that I was missing and practice with them the next week.
+
+Ah, yeah, I'll start improving my projects and building new ones while I learn about Docker since past tomorrow, but tomorrow, I'll dedicate to practice and recall the most difficult parts for me from the course.
+
 ### Day 16: January 7, 2024
 
 **Today's Progress**:
