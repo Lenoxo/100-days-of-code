@@ -27,6 +27,22 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 18: January 9, 2024
+
+**Today's Progress**:
+
+- [**"The Last Algorithm Course You'll Need"**](https://frontendmasters.com/courses/algorithms/): Today I did a recall session of the course, and identified that I had knowledge gaps in:
+  - BubbleSort
+  - QuickSort
+  - BFS and DFS
+  - heap and trie tree
+  - graphs
+
+**Thoughts**: Today I finished very late the recall session, because I had some incidentals that I only complete after late night. And since tomorrow, I'll start learning about Docker.
+
+Also, I didn't write here almost anything today because currently I'm very tired after this day. Hope to get a good night sleep.
+
+
 ### Day 17: January 8, 2024
 
 **Today's Progress**:
