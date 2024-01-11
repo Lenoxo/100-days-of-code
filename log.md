@@ -27,6 +27,15 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 19: January 10, 2024
+
+**Today's Progress**:
+
+- [**"Docker Course - Platzi"**](https://platzi.com/cursos/docker/): Today I did a pre-study session to get in my head the basic structure of the topic, which are the different parts of the course, why is Docker organized that way and why is so important to learn about it.
+Since tomorrow I'll start applying some things during learning that I hope will help me learn faster and retain better, combined with practice of course.
+
+**Thoughts**: Today I had less time to practice, just about 1 hour, so I had to suspend for now the reinforcement I was doing with my knowledge gaps in the DSA course.
+
 ### Day 18: January 9, 2024
 
 **Today's Progress**:
