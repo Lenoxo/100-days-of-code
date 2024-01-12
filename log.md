@@ -27,6 +27,26 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 20: January 11, 2024
+
+**Today's Progress**:
+
+- [**"Docker Course - Platzi"**](https://platzi.com/cursos/docker/): Today I advanced 4 classes, mainly in the Introduction part, where I learned about what is Docker, the main problem that it solves, what is virtualization and how VM's and Containers work as ways to virtualize apps.
+
+- Some of today notes (They are in Spanish, because it's easier for me to write them in my mother tongue and the course is in Spanish too):
+
+  ![notes](https://imgur.com/q78ZAUw.png) 
+
+- Also, I had a few bugs to fix during my Docker-Destop install in Arch Linux, because there is just an experimental package, and one of the downsides it has that, currently the login process doesn't work in Docker-Desktop.
+  - I managed to barely fix this by logging in using the CLI, but the account just logout after I reboot or close Docker-Desktop.
+
+- And other bug I had, but that was all my fault, is that for 15 minutes I thought that dependencies weren't in the Arch repositories:
+  - I was getting 404 errors when trying to install Docker-Desktop with `pacman -U`
+  - The problem was that I don't upgrade the system every day, but once or twice per week, and the packages I was trying to install were updated.
+  - So, to fix it, I just had to upgrade. `pacman -Syu`
+
+**Thoughts**: Well, most of the practice time today was taken for the bugs, but I feel it's for now, much easier to learn about Docker than DSA.
+
 ### Day 19: January 10, 2024
 
 **Today's Progress**:
