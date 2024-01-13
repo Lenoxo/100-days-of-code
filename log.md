@@ -27,6 +27,27 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 21: January 12, 2024
+
+**Today's Progress**:
+
+- [**"Docker Course - Platzi"**](https://platzi.com/cursos/docker/): Today I advanced 5 classes, where I learned about how the state in containers is managed, more exactly what is a container, what is the Docker architecture, practiced with my first used container, hello world and learned some useful commands:
+
+Execute containers
+	`docker run hello-world`
+	`docker run --name jojo-reference hello-world`
+List containers
+	`docker ps` list of active containers
+	`docker ps -a` list all containers
+Remove containers
+	`docker rm id-contenedor`
+	`docker container prune` remove all inactive containers
+Plus: Rename containers: `docker rename id-cont. nuevo-nombre`
+
+When I finish a big section of the course, I'll put some notes
+
+**Thoughts**: It was curious to see how every time I use docker run, it creates a new container and runs it, I thought it just reused the created container with cache, but it appears that only happens with the Image.
+
 ### Day 20: January 11, 2024
 
 **Today's Progress**:
