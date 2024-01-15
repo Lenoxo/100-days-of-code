@@ -27,24 +27,45 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 22: January 14, 2024
+
+**Today's Progress**:
+
+- [**"Docker Course - Platzi"**](https://platzi.com/cursos/docker/): Today I advanced 3 classes, where I learned briefly how the container's life cycle works, what is interactive mode and how to use it, how to expose ports in containers and see logs, here are some useful commands I learned:
+  - Keep a container with Ubuntu running
+    `docker run --name alpha -d ubuntu tail -f /dev/null`
+  - Run a command in a container
+    `docker exec nameCont echo "Hello world"`
+  - Search container process ID  (use name / ID)
+    `docker inspect --format '{{.State.Pid}}' alpha`
+  - Stop a container
+    `docker stop id or name`
+  - Expose ports of a container
+    `docker run --name proxy -d -p 8080:80 nginx`
+  - See logs of a container
+    `docker logs -f --tail 3 proxy`
+- Notes of this section (They are in Spanish, because it's easier for me to write them in my mother tongue and the course is in Spanish too):
+  - ![notes](https://imgur.com/xTgrUZw.png)
+**Thoughts**: I had less time today because I spent most of the day with my family, and yesterday with some friends I won't see up to 8 months, but I managed to advance a little.
+
 ### Day 21: January 12, 2024
 
 **Today's Progress**:
 
 - [**"Docker Course - Platzi"**](https://platzi.com/cursos/docker/): Today I advanced 5 classes, where I learned about how the state in containers is managed, more exactly what is a container, what is the Docker architecture, practiced with my first used container, hello world and learned some useful commands:
 
-Execute containers
-	`docker run hello-world`
-	`docker run --name jojo-reference hello-world`
-List containers
-	`docker ps` list of active containers
-	`docker ps -a` list all containers
-Remove containers
-	`docker rm id-contenedor`
-	`docker container prune` remove all inactive containers
-Plus: Rename containers: `docker rename id-cont. nuevo-nombre`
+  - Execute containers
+    `docker run hello-world`
+    `docker run --name jojo-reference hello-world`
+  - List containers
+    `docker ps` list of active containers
+    `docker ps -a` list all containers
+  - Remove containers
+    `docker rm id-contenedor`
+    `docker container prune` remove all inactive containers
+  - Plus: Rename containers: `docker rename id-cont. nuevo-nombre`
 
-When I finish a big section of the course, I'll put some notes
+When I finish a big section of the course, I'll put some notes again.
 
 **Thoughts**: It was curious to see how every time I use docker run, it creates a new container and runs it, I thought it just reused the created container with cache, but it appears that only happens with the Image.
 
