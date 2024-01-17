@@ -27,6 +27,32 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 24: January 16, 2024
+
+**Today's Progress**:
+
+- [**"Docker Course - Platzi"**](https://platzi.com/cursos/docker/): Today I advanced 2 classes, where I learned how to copy files/folders from and to containers, create (build) images, briefly how the layer system of images works, how to change images tags and how to pull and push images, here are some useful commands I learned:
+  - Copy a folder to a container, and upside down.
+    `docker cp testfiles copycont:/testing`
+    `docker cp copycont:/testing localtesting`
+  - List and pull images
+    `docker image ls`
+    `docker image pull ubuntu:22.04`
+  - Rename images tags
+    `docker tags ubuntu:message lenoxo/ubuntu:message`
+- For me, image layers work very similar to git commits, only saving the changes, and not copying again and again the same info.
+
+- And I had some bugs, more specifically one that I couldn't resolve while I'm writing this so, I'll solve it tomorrow, and it is still happening even after I created the repository using docker hub, and logged-in in docker CLI.
+  ```bash
+  ➜  dockerImages docker push lenoxo/ubuntu:message
+  The push refers to repository [docker.io/lenoxo/ubuntu]
+  6389d27b5662: Preparing 
+  a1360aae5271: Preparing 
+  denied: requested access to the resource is denied
+  ```
+
+**Thoughts**: Well, today I advanced in this challenge more than the hour, so, I'll try to keep making bigger the time I reserve to practice in this challenge. 
+
 ### Day 23: January 15, 2024
 
 **Today's Progress**:
