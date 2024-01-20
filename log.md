@@ -27,6 +27,51 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 25: January 19, 2024
+
+**Today's Progress**:
+
+- [**"Docker Course - Platzi"**](https://platzi.com/cursos/docker/): Today all the time I had for learning (1h and 30 mins), I spent it debugging that error of the last day:
+
+  ```bash
+  ➜  dockerImages docker push lenoxo/ubuntu:message
+  The push refers to repository [docker.io/lenoxo/ubuntu]
+  6389d27b5662: Preparing 
+  a1360aae5271: Preparing 
+  denied: requested access to the resource is denied
+  ```
+
+What I tried is this:
+  1. Doing the same push in another environment, in this case, I used an instance of Play with Docker, and the above command worked as intended:
+
+  ```bash
+  [node1] (local) root@192.168.0.18 ~
+  $ docker push lenoxo/ubuntu:message
+  The push refers to repository [docker.io/lenoxo/ubuntu]
+  f3c98273d297: Layer already exists 
+  8e87ff28f1b5: Layer already exists 
+  message: digest: sha256:1c69461ad98cb1131e7460afa03f5fa31cbbb7eac9e22c7388089657206ff07a size: 736
+  ```
+    
+  2. Restoring a past snapshot I had before I installed docker desktop in Arch Linux and trying the command again, but with sudo, because I didn't configure at that time the docker group, worked as intended.
+
+  ```bash
+  ➜  ~ sudo docker push lenoxo/ubuntu:message
+  [sudo] contraseña para emanuel: 
+  The push refers to repository [docker.io/lenoxo/ubuntu]
+  a7bcbb0d1b6a: Layer already exists 
+  8e87ff28f1b5: Layer already exists 
+  message: digest: sha256:d7d9f02abb6d491f5a3ee230c1e0ed8044dbaf3f5deb9be84cfe03afe43d1df6 size: 736
+  ```
+
+  4. Going back to the docker desktop snapshot and trying to clear all docker config, and pass config too, before using again docker push, and the error happened again.
+  5. Removing with `pacman -Rns docker-desktop` and trying again the command, both ways, using and not using sudo, and the error happened again.
+
+So, what I have to say is that it appears to be a rare bug with how the configuration is rewritten by docker-desktop in Arch Linux, and because the package still in experimental phase, I think that explains why this happened.
+For now, I'll just use docker and docker-compose installed from official repos in Arch Linux, and maybe in the weekend, I'll report this bug in the docker community.
+
+**Thoughts**: These last two days I didn't advance in this challenge mainly because I had personal problems, that took all my day and until this evening, I was able to come back to home and learn again.
+
 ### Day 24: January 16, 2024
 
 **Today's Progress**:
