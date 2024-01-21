@@ -27,6 +27,21 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 26: January 20, 2024
+
+**Today's Progress**:
+
+- [**"Docker Course - Platzi"**](https://platzi.com/cursos/docker/): Today I advanced two classes, where I learned more about the layer system in images used by Docker, discovered a curious tool called dive, that lets you see more details about an image history, and lastly, more useful commands:
+  - A detail that is curious to me, is that, like git, the image layer system saves changes made in the file system, and the creation and deletion of an archive, is registered and has a weight in the final image size, even if you removed a past created file from the image, it stills in the image history as a previous change.
+  - **Dive**: It's a tool used to see more info about the image history, layers and current state per layer, the link it's right here: [**GitHub link**](https://github.com/wagoodman/dive)
+  - Commands:
+    - Show an image history:
+      `docker history IMAGE_NAME:TAG` → `docker history lenoxo/ubuntu:message`
+    - Use dive to watch more details about an image history:
+      `dive IMAGE_NAME:TAG` → `dive lenoxo/ubuntu:message`
+
+**Thoughts**: Today I had just one hour to learn, and because I finished an important part of the course, tomorrow I'll be sharing here my notes from that part too.
+
 ### Day 25: January 19, 2024
 
 **Today's Progress**:
