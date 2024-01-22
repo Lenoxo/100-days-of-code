@@ -27,6 +27,27 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 27: January 21, 2024
+
+**Today's Progress**:
+
+- [**"Docker Course - Platzi"**](https://platzi.com/cursos/docker/): Today I advanced two classes, where I learned about the cache of the layer system, how to optimize it in a simple way, and docker networking, AKA connecting containers and making them talk to each other, and lastly, more useful commands:
+  - As promised, I attach some of my last day notes about the past section of the course (They are in Spanish, because it's easier for me to write them in my mother tongue and the course is in Spanish too):
+    - ![notes](https://imgur.com/bFpsyaW.png)
+  - Another curious detail for me, is that, if you organize well your steps when using a Dockerfile, you optimize build time for images, thanks to the efficient cache use.
+  - Commands:
+    - List docker networks
+       `docker network ls`
+    - Create new network
+        `docker network create creativeName`
+    - Connect container to a docker network
+        `docker network connect networkName containerName`
+        The above command works ONLY if the containers you want to connect, are in the same network
+    - Assign env variables to containers
+      `docker run --env MONGO_URL=mongodb://...`
+
+**Thoughts**: It's like a filler word that I noticed, today, today, today. Kinda funny, but well, currently, I want to try something that I hope, I'll be telling right here in the coming days.
+
 ### Day 26: January 20, 2024
 
 **Today's Progress**:
