@@ -27,6 +27,39 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 28: January 22, 2024
+
+**Today's Progress**:
+
+- [**"Docker Course - Platzi"**](https://platzi.com/cursos/docker/): Today I advanced three classes, where I learned about docker-compose, how to use it, basic commands with it, and how to apply it in the software development, of course, also I learned more useful commands:
+  - One curious detail for me, is that, when you use `docker-compose exec serviceName bash`, you don't need to add -it as parameter, thanks to docker-compose
+  - Another curious detail, is that you can ignore files when doing bind mounts specified in docker-compose.yml like this:
+    ```yml
+    # ...
+    volumes:
+      - .:/usr/src
+      - /usr/src/node_modules # Here, I ignore from the bind mount, node_modules folder, to prevent override of it, from the host filesystem, to the container filesystem.
+    # ...
+    ```
+  - Commands:
+    - Activate all services listened in the docker-compose file
+       `docker-compose up`
+    - See logs
+      - of the service
+         `docker-compose logs serviceName`
+      - Follow service logs
+         `docker-compose logs -f serviceName`
+    - Execute a command within a service container
+       `docker-compose exec serviceName command`
+    - Stop all services
+       `docker-compose down`
+    - Build an image for a service, specified in docker-compose.yml
+       `docker-compose build serviceName`
+    - Activate all services detached
+        `docker-compose up -d`
+
+**Thoughts**: Today I had a bit more time to practice, one and a half hour to be precise. Also, I knew just basic commands for using docker-compose when I was building my most recent backend project, Devshop API, and it was groundbreaking to discover how I can configure even more of the services, and I know tomorrow I'll learn even more, so, I'm excited about that.
+
 ### Day 27: January 21, 2024
 
 **Today's Progress**:
