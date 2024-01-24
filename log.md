@@ -27,6 +27,46 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 29: January 23, 2024
+
+**Today's Progress**:
+
+- [**"Docker Course - Platzi"**](https://platzi.com/cursos/docker/): Today I advanced two classes, where I learned about docker-compose.override.yml, how to use it and write personalized configs for docker-compose, and lastly how to manage disk space and limit ram usage for docker containers, also I learned more useful commands:
+  - Tomorrow I'll be sharing here this section notes, because I finished it today.
+  - Also, another curious detail I learned today, is that, containers, only can listen to one port in the host machine per container, so, if you want to horizontally scale a service in docker-compose, you would need to use a range of ports, like this in your docker-compose file:
+    ```yml
+    # ...
+    ports:
+    - "3000-3003:3000"
+    # ...
+    ```
+  - Commands:
+    - Clean unused containers, networks and images:
+      `docker container prune`
+      `docker network prune`
+      `docker image prune`
+    - Clean all unused files in the system by docker
+	    `docker system prune`
+    - Force rm containers
+	    `docker rm -f containerName or id`
+    - Limit ram usage of a container
+	    `docker run -d --memory 40m or 1g app`
+    - Check if a container stopped because it ran Out Of Memory
+	    `docker inspect containerName`
+      output:
+	    ```jsonc
+          {
+          // ...
+          OOMKilled, true
+          // ...
+          }
+      ```
+    - Check ram usage of docker
+	    `docker stats`
+    - Horizontally scale containers used in a service:
+      `docker-compose up -d --scale appService=4`
+**Thoughts**: Today for personal reasons I only advanced one hour, so yeah, nothing under my control for now.
+
 ### Day 28: January 22, 2024
 
 **Today's Progress**:
