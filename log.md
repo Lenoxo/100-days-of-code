@@ -27,6 +27,69 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 30: January 24, 2024
+
+**Today's Progress**:
+
+- [**"Docker Course - Platzi"**](https://platzi.com/cursos/docker/): Today I finished this course, advancing five classes, where I learned:
+  - The differences between shell vs exec commands in Dockerfiles, also when to use them. 
+  - How to make executable binaries in docker allowing changing parameters combining ENTRYPOINT and CMD in the Dockerfiles
+  - What is and how to use the build context in docker images
+  - How to use multi-stage build when building images
+    - A curious detail for me is that you can reference past images layers using the builder 'nickname' to call it in one easy way, and the `--from` flag in the Dockerfiles:
+
+      ```yml
+      FROM node:12 as builder
+
+      COPY ["package.json", "package-lock.json", "/usr/src/"]
+
+      WORKDIR /usr/src
+
+      RUN npm install --only=production
+
+      COPY [".", "/usr/src/"]
+
+      RUN npm install --only=development
+
+      RUN npm run test
+
+
+      # Productive image
+
+      FROM node:12
+
+      COPY ["package.json", "package-lock.json", "/usr/src/"]
+
+      WORKDIR /usr/src
+
+      RUN npm install --only=production
+
+      # The above part is duplicated because you can optimize the image build time by using the cache in the layer system
+
+      COPY --from=builder ["/usr/src/index.js", "/usr/src/build", "/usr/src/"]
+
+      EXPOSE 3000
+
+      CMD ["node", "index.js"]
+      ```
+  - **Section Notes:** (They are in Spanish, because it's easier for me to write them in my mother tongue and the course is in Spanish too)
+    - From the yesterday promise:
+      ![notes](https://imgur.com/qfOauJi.png)
+    - Today's notes:
+      ![notes](https://imgur.com/pGyhDsA.png)
+      
+  - also, I learned more useful commands:
+    - Commands:
+      - Making a build using a different Dockerfile:
+	      `docker build -t prodimg -f build/production.Dockerfile .`
+
+      - Using dive from a container, to see an image details that is located in the host machine:
+        `sudo docker run -it --rm --name divecontainer -v /var/run/docker.sock:/var/run/docker.sock wagoodman/dive prodimg`
+
+**Thoughts**: Well, I advanced more than I expected in two hours learning about docker, and I'm excited about what I can do now with docker, because one of the things I can remember drains most of my time when using a new computer / working another computer that is borrowed for someone else while I'm visiting, is that configuring the dev environment takes a lot of time, and now I can use docker to simplify that.
+
+Also, tomorrow I'll be covering typescript basics, while improving my personal projects that are abandoned, for about 2 months the most recent one.
+
 ### Day 29: January 23, 2024
 
 **Today's Progress**:
