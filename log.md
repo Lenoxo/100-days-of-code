@@ -27,6 +27,53 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 31: January 26, 2024
+
+**Today's Progress**:
+
+- [**Learning Typescript**]: Today I finished the introduction part of [Typescript for JS programmers](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html), obviously playing with all the demo code and making some examples on my own to get the idea of the basics.
+- As always, all the exercises I did today, are in one of my practice repos:
+  [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/challenges-in-process)
+
+**Thoughts**: An example that confused my for about 6 minutes is the backpack one, but I realized how easy it was after some chatting with ChatGPT making it explaining why my code didn't work, and it was because I confused the declaration of a type with generic, with creating an array and using another type as its elements values type:
+
+```ts
+// Generics (Like variables in types)
+
+interface BirthdayList<Type> {
+  add: (data: Type) => void;
+  delete: () => Type;
+}
+
+declare const birthdayList: BirthdayList<object>;
+
+const upcomingBirthday = birthdayList.delete();
+
+birthdayList.add("May 25/2021");
+
+// What I was trying to use
+
+interface Clients<Type> {
+  add: (data: Type) => void
+  delete: () => Type
+}
+
+const updatedClients: Clients<object> = [{ username: "Michael Jordan", age: 17 }]
+
+// What I really wanted to do
+
+type Client = { username: string, age: number}
+
+type ClientsArray = Array<Client>;
+
+const clientsArray: ClientsArray = [] 
+
+const newClient = { username: "Jason", age: 30}
+
+clientsArray.push(newClient)
+clientsArray.push(45) // Another intentional error to practice with static type checking
+```
+
 ### Day 30: January 24, 2024
 
 **Today's Progress**:
