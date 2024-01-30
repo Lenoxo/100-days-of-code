@@ -27,6 +27,35 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+
+### Day 32: January 27, 2024
+
+**Today's Progress**:
+
+- [**Learning Typescript**]: Today I did some research about good resources to learn about typescript in a more practical way, and found [**Full-stack Open**](https://fullstackopen.com/), that has a module about using typescript, and plus node and react projects guides to practice with. So I followed the introduction part today.
+- As always, all the exercises I did today, are in one of my practice repos:
+  [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/challenges-in-process)
+
+**Thoughts**: I had a problem while using `ts-node` today in my practice repo, and later on, noticed that it was because I used Astro, the default config for Astro with tailwind was in conflict and the .ts files weren't recognized. For now, I don't want to have my focus divided, so I removed Astro from the repo and the commands worked as intended.
+
+This is the bug I had, for future reference, and maybe solve it when I learn about Astro:
+
+```bash
+HTML-CSS-JS-challenges git:(challenges-in-process) ✗ npm run ts-node file.ts                                       
+
+> square-solstice@0.0.1 ts-node
+> ts-node file.ts
+
+TypeError: Unknown file extension ".ts" for /home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/file.ts
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:160:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:203:36)
+    at defaultLoad (node:internal/modules/esm/load:141:22)
+    at async ModuleLoader.load (node:internal/modules/esm/loader:409:7)
+    at async ModuleLoader.moduleProvider (node:internal/modules/esm/loader:291:45)
+    at async link (node:internal/modules/esm/module_job:76:21) {
+  code: 'ERR_UNKNOWN_FILE_EXTENSION'
+```
+
 ### Day 31: January 26, 2024
 
 **Today's Progress**:
