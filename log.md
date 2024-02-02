@@ -28,6 +28,24 @@
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
 
+### Day 33: February 1, 2024
+
+**Today's Progress**:
+
+- [**Learning Typescript**]: Today I advanced in the First Steps part until Type narrowing [**Full-stack Open**](https://fullstackopen.com/).
+- As always, all the exercises I did today, are in one of my practice repos:
+  [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/challenges-in-process)
+
+**Thoughts**: I did some research, testing by myself and found why the problem the last day happened, and it's because I was using in my package.json this line, and it has a conflict with ts-node, the easiest way to solve it in my case, was removing it:
+
+  ```jsonc
+  {
+    //...
+    type: module
+    //...
+  }
+  ```
+
 ### Day 32: January 27, 2024
 
 **Today's Progress**:
