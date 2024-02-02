@@ -45,6 +45,7 @@
     //...
   }
   ```
+Also, these last 3 days I didn't advance in the challenge for some problems related to my current pc, but I managed to solve them, so, I'll be giving my best since now.
 
 ### Day 32: January 27, 2024
 
