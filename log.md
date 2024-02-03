@@ -27,7 +27,25 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 34: February 2, 2024
 
+**Today's Progress**:
+
+- [**Learning Typescript**]: Today I advanced in the First Steps part until finishing exercise 9.1 [**Full-stack Open**](https://fullstackopen.com/).
+- As always, all the exercises I did today, are in one of my practice repos:
+  [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/challenges-in-process)
+
+**Thoughts**: I learned something curious, and is that you can change the `tsconfig` file that ts-node will be using, passing the flag -p, followed by the archive route, I used something like this for one of my aliases in `package.json`:
+
+  ```jsonc
+  {
+  "scripts": {
+    //...
+    "calculateBmi": "ts-node src/TS-exercices/ejercicios-9.1-9.7/bmiCalculator.ts -p src/TS-exercices/ejercicios-9.1-9.7/tsconfig.json"
+    //...
+  }
+  ```
+And something weird happened yesterday with my Twitter account, until it's resolved, I won't give more details, the only thing I have to say, is that I keep holding on with this challenge (Like the song).
 ### Day 33: February 1, 2024
 
 **Today's Progress**:
