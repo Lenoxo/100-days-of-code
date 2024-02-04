@@ -27,6 +27,36 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 35: February 3, 2024
+
+**Today's Progress**:
+
+- [**Learning Typescript**]: Today I advanced in the First Steps part, doing exercises with bmiCalculator and exerciseCalculator, until finishing exercise 9.3 [**Full-stack Open**](https://fullstackopen.com/).
+- As always, all the exercises I did today, are in one of my practice repos:
+  [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/challenges-in-process)
+
+**Thoughts**: I learned more, after some debugging with this error:
+```bash
+➜  HTML-CSS-JS-challenges git:(challenges-in-process) ✗ npm run calculateBmi 180 74
+
+> html-css-js-challenges@1.0.0 calculateBmi
+> ts-node -p src/TS-exercices/ejercicios-9.1-9.7/tsconfig.json src/TS-exercices/ejercicios-9.1-9.7/bmiCalculator.ts 180 74
+
+SyntaxError: /home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/src/TS-exercices/ejercicios-9.1-9.7/tsconfig.json: Expected double-quoted property name in JSON at position 54
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (node:internal/modules/cjs/loader:1453:39)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at phase4 (/home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/node_modules/ts-node/src/bin.ts:649:14)
+    at bootstrap (/home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/node_modules/ts-node/src/bin.ts:95:10)
+    at main (/home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/node_modules/ts-node/src/bin.ts:55:10)
+    at Object.<anonymous> (/home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/node_modules/ts-node/src/bin.ts:800:3)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+```
+
+What happened is that I did wrong my npm script, because the correct flag for choosing a custom tsconfig.json, is `-P`, not `-p`. Using `npm run ts-node -- --help` was really helpful in this case. (An intended pun :D )  
+
 ### Day 34: February 2, 2024
 
 **Today's Progress**:
@@ -35,13 +65,13 @@
 - As always, all the exercises I did today, are in one of my practice repos:
   [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/challenges-in-process)
 
-**Thoughts**: I learned something curious, and is that you can change the `tsconfig` file that ts-node will be using, passing the flag -p, followed by the archive route, I used something like this for one of my aliases in `package.json`:
+**Thoughts**: I learned something curious, and is that you can change the `tsconfig` file that ts-node will be using, passing the flag -P, followed by the archive route, I used something like this for one of my aliases in `package.json`:
 
   ```jsonc
   {
   "scripts": {
     //...
-    "calculateBmi": "ts-node src/TS-exercices/ejercicios-9.1-9.7/bmiCalculator.ts -p src/TS-exercices/ejercicios-9.1-9.7/tsconfig.json"
+    "calculateBmi": "ts-node -P src/TS-exercices/ejercicios-9.1-9.7/tsconfig.json src/TS-exercices/ejercicios-9.1-9.7/bmiCalculator.ts",
     //...
   }
   ```
