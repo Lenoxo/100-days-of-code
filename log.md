@@ -27,6 +27,20 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 36: February 4, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript**: Today I advanced in the First Steps part, learning about some details when using modules in Typescrit and tsconfig, how to use `express.js` with typescript (you need to install express types `@types/express`), and lastly, complete exercises 9.3 to 9.5 [**Full-stack Open**](https://fullstackopen.com/).
+- As always, all the exercises I did today, are in one of my practice repos:
+  [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/challenges-in-process)
+- **Practicing with Docker:** Today also I did a little project, with my neovim configs, plugins and cache loaded in a Docker image, for easy install and usage. Uses alpine linux as base distro and later on, I'll see if I pack it without the cache.
+  - Repository: `https://github.com/Lenoxo/temp-nvim`
+  - Docker Hub: `https://hub.docker.com/r/lenoxo/nvimdocker`
+
+
+**Thoughts**: I advanced more today, but something I have to improve is that I break my pomodoro cycles, is supposed that after 1 hour, even when it's funny, you have to get up and stretch for your health, but for me, time flies when I'm learning / practicing, and after 2 hours I notice that mistake.
+
 ### Day 35: February 3, 2024
 
 **Today's Progress**:
