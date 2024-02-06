@@ -27,6 +27,16 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 37: February 5, 2024
+
+**Today's Progress**:
+
+- **Practicing with Docker:** Today I debugged some plugins not working in this Dockerized neovim, the only one that's missing is the clipboard management, I'll see if I research more about the topic.
+  - Repository: `https://github.com/Lenoxo/temp-nvim`
+  - Docker Hub: `https://hub.docker.com/r/lenoxo/nvimdocker`
+
+**Thoughts**: Today was a very difficult day for me, ignoring personal details the hardest thing was that I didn't sleep at all last night, so focusing, practicing and learning was a real challenge.
+
 ### Day 36: February 4, 2024
 
 **Today's Progress**:
@@ -37,7 +47,6 @@
 - **Practicing with Docker:** Today also I did a little project, with my neovim configs, plugins and cache loaded in a Docker image, for easy install and usage. Uses alpine linux as base distro and later on, I'll see if I pack it without the cache.
   - Repository: `https://github.com/Lenoxo/temp-nvim`
   - Docker Hub: `https://hub.docker.com/r/lenoxo/nvimdocker`
-
 
 **Thoughts**: I advanced more today, but something I have to improve is that I break my pomodoro cycles, is supposed that after 1 hour, even when it's funny, you have to get up and stretch for your health, but for me, time flies when I'm learning / practicing, and after 2 hours I notice that mistake.
 
