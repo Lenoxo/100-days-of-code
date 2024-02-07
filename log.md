@@ -27,6 +27,19 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 38: February 6, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript:** Today I advanced two sections in First Steps, the horrors of any and Type assertion, and I finished the 9.6 exercise too [**Full-stack Open**](https://fullstackopen.com/)
+- **Practicing with Docker:** Today I found that is for the docker isolation that clipboard doesn't work as intended, even if you configure the sockets for xclip and xsel from the container to have access to the host ones, so, the only workaround is starting neovim within a tmux session. 
+  - Repository: `https://github.com/Lenoxo/temp-nvim`
+  - Docker Hub: `https://hub.docker.com/r/lenoxo/nvimdocker`
+
+**Thoughts**: I had a good night sleep and gosh, how the body feels really different from yesterday is wonderful, and also, I updated some things in the docker project image to match my current config, rather than the old 2 months one.
+
+Also, it appears that the issue with my Twitter account is solved, so tomorrow I'll be publishing the missing days in the account and explain a bit what happened.
+
 ### Day 37: February 5, 2024
 
 **Today's Progress**:
@@ -41,7 +54,7 @@
 
 **Today's Progress**:
 
-- **Learning Typescript**: Today I advanced in the First Steps part, learning about some details when using modules in Typescrit and tsconfig, how to use `express.js` with typescript (you need to install express types `@types/express`), and lastly, complete exercises 9.3 to 9.5 [**Full-stack Open**](https://fullstackopen.com/).
+- **Learning Typescript**: Today I advanced in the First Steps part, learning about some details when using modules in Typescript and tsconfig, how to use `express.js` with typescript (you need to install express types `@types/express`), and lastly, complete exercises 9.3 to 9.5 [**Full-stack Open**](https://fullstackopen.com/).
 - As always, all the exercises I did today, are in one of my practice repos:
   [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/challenges-in-process)
 - **Practicing with Docker:** Today also I did a little project, with my neovim configs, plugins and cache loaded in a Docker image, for easy install and usage. Uses alpine linux as base distro and later on, I'll see if I pack it without the cache.
