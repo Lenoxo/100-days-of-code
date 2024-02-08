@@ -40,6 +40,69 @@
 
 Also, it appears that the issue with my Twitter account is solved, so tomorrow I'll be publishing the missing days in the account and explain a bit what happened.
 
+### Day 39: February 7, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript:** Today I finised the First Steps section, completing the last exercise of WebExercises, which took me about 90 minutes to solve handling errors well too. [**Full-stack Open**](https://fullstackopen.com/)
+The funniest error I had, was that this message was constantly showing as a 500 error:
+```
+Error: You didn't gave me a number of hours, check your input
+    at parseArgValues (/home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/src/TS-exercices/ejercicios-9.1-9.7/exerciseCalculator.ts:60:13)
+    at /home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/src/TS-exercices/index.ts:60:46
+    at Layer.handle [as handle_request] (/home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/node_modules/express/lib/router/layer.js:95:5)
+    at /home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/node_modules/express/lib/router/index.js:280:10)
+    at /home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/node_modules/body-parser/lib/read.js:137:5
+```
+And even after making sure that `parseArgValues` and its error was captured within a try / catch block, it kept showing again and again.
+```ts
+app.post("/exercises", (req, res) => {
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+  const { daily_exercises, target } = req.body;
+  if (!daily_exercises || !target) {
+    return res.status(400).json({
+      error: "parameters missing",
+    });
+  }
+
+  try {
+    const parsedTarget: number = Number(target);
+    if (isNaN(parsedTarget)) return res.status(400).sendFile(errorPage);
+    // parseArgValues also validates the format of the array
+
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
+    const parsedDailyExercises = parseArgValues(daily_exercises, 0);
+
+    const result = rateTrainingPeriod(parsedDailyExercises, parsedTarget);
+    return res.json(result);
+  } catch (error) {
+    if (error instanceof Error) {
+      const errorMessage = error.message;
+      return res.status(400).json({
+        errorMessage,
+      });
+    }
+    // console.error(error);
+  }
+});
+```
+
+Until lastly, I decided to restart ts-node-dev, and, it showed as I wanted finally:
+
+```jsonc
+{
+	"errorMessage": "You didn't gave me a number of hours, check your input"
+}
+```
+Bottom line, reboot your ts-node-dev if you captured an error and you're sure it is right.
+
+**Thoughts**: Today I didn't have almost time to practice and write progress in social media, so, tomorrow I'll be doing that at the end of the practice.
+
 ### Day 37: February 5, 2024
 
 **Today's Progress**:
