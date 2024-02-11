@@ -27,18 +27,17 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
-### Day 38: February 6, 2024
+### Day 40: February 10, 2024
 
 **Today's Progress**:
 
-- **Learning Typescript:** Today I advanced two sections in First Steps, the horrors of any and Type assertion, and I finished the 9.6 exercise too [**Full-stack Open**](https://fullstackopen.com/)
-- **Practicing with Docker:** Today I found that is for the docker isolation that clipboard doesn't work as intended, even if you configure the sockets for xclip and xsel from the container to have access to the host ones, so, the only workaround is starting neovim within a tmux session. 
-  - Repository: `https://github.com/Lenoxo/temp-nvim`
-  - Docker Hub: `https://hub.docker.com/r/lenoxo/nvimdocker`
+- **Practicing with Personal Projects:** Today I added the last project I did, the technology and link to my twitter in my webpage.
+  - During that time, I noticed that the compiling time for the dev server using Next.js in version 13.5.4 was really slow on my machine.
+  - It only has an `Intel Pentium G2030` so I tried to research a little about that.
+  - What I found is that Next.js 13 has a known issue with compiling time, and many devs where taking about that in this issue: [click](https://github.com/vercel/next.js/issues/48748)
+  - For me, right now, what worked to make dev time faster, is upgrading from `13.5.4` to `14.1`.
 
-**Thoughts**: I had a good night sleep and gosh, how the body feels really different from yesterday is wonderful, and also, I updated some things in the docker project image to match my current config, rather than the old 2 months one.
-
-Also, it appears that the issue with my Twitter account is solved, so tomorrow I'll be publishing the missing days in the account and explain a bit what happened.
+**Thoughts**: Today I did the coding part as early as possible, and noticed the difference for the focus I had during my coding time. Also, I had a curious bug during adding Docker technology icon to my webpage, for what I tried, it appears to be related with how I implemented the component for icons and what happens if I do a duplicated one.
 
 ### Day 39: February 7, 2024
 
@@ -102,6 +101,19 @@ Until lastly, I decided to restart ts-node-dev, and, it showed as I wanted final
 Bottom line, reboot your ts-node-dev if you captured an error and you're sure it is right.
 
 **Thoughts**: Today I didn't have almost time to practice and write progress in social media, so, tomorrow I'll be doing that at the end of the practice.
+
+### Day 38: February 6, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript:** Today I advanced two sections in First Steps, the horrors of any and Type assertion, and I finished the 9.6 exercise too [**Full-stack Open**](https://fullstackopen.com/)
+- **Practicing with Docker:** Today I found that is for the docker isolation that clipboard doesn't work as intended, even if you configure the sockets for xclip and xsel from the container to have access to the host ones, so, the only workaround is starting neovim within a tmux session. 
+  - Repository: `https://github.com/Lenoxo/temp-nvim`
+  - Docker Hub: `https://hub.docker.com/r/lenoxo/nvimdocker`
+
+**Thoughts**: I had a good night sleep and gosh, how the body feels really different from yesterday is wonderful, and also, I updated some things in the docker project image to match my current config, rather than the old 2 months one.
+
+Also, it appears that the issue with my Twitter account is solved, so tomorrow I'll be publishing the missing days in the account and explain a bit what happened.
 
 ### Day 37: February 5, 2024
 
