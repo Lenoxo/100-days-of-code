@@ -27,6 +27,24 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 41: April 18, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript:** Today I advanced Practicing with exercises 9.8, creating a little server using `Express.js` which responds to requests in `/api/ping` endpoint.
+
+  Also related to with that practice, I learned the basics of how to configure a project using `tsconfig.json` and `ts-node-dev` `ts-node`.
+
+  Link to the repos used:
+
+  1. [diario-vuelo-Ilari](https://github.com/Lenoxo/diario-vuelo-Ilari)
+
+  2. [exercises repo](https://github.com/Lenoxo/backend-typescript-fullstack-open)
+
+  <!-- TODO: Update thoughts with the May 1 Note here -->
+
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+
 ### Day 40: February 10, 2024
 
 **Today's Progress**:
@@ -44,7 +62,8 @@
 **Today's Progress**:
 
 - **Learning Typescript:** Today I finised the First Steps section, completing the last exercise of WebExercises, which took me about 90 minutes to solve handling errors well too. [**Full-stack Open**](https://fullstackopen.com/)
-The funniest error I had, was that this message was constantly showing as a 500 error:
+  The funniest error I had, was that this message was constantly showing as a 500 error:
+
 ```
 Error: You didn't gave me a number of hours, check your input
     at parseArgValues (/home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/src/TS-exercices/ejercicios-9.1-9.7/exerciseCalculator.ts:60:13)
@@ -58,7 +77,9 @@ Error: You didn't gave me a number of hours, check your input
     at next (/home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/node_modules/express/lib/router/index.js:280:10)
     at /home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challenges/node_modules/body-parser/lib/read.js:137:5
 ```
+
 And even after making sure that `parseArgValues` and its error was captured within a try / catch block, it kept showing again and again.
+
 ```ts
 app.post("/exercises", (req, res) => {
   // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
@@ -95,9 +116,10 @@ Until lastly, I decided to restart ts-node-dev, and, it showed as I wanted final
 
 ```jsonc
 {
-	"errorMessage": "You didn't gave me a number of hours, check your input"
+  "errorMessage": "You didn't gave me a number of hours, check your input",
 }
 ```
+
 Bottom line, reboot your ts-node-dev if you captured an error and you're sure it is right.
 
 **Thoughts**: Today I didn't have almost time to practice and write progress in social media, so, tomorrow I'll be doing that at the end of the practice.
@@ -107,7 +129,7 @@ Bottom line, reboot your ts-node-dev if you captured an error and you're sure it
 **Today's Progress**:
 
 - **Learning Typescript:** Today I advanced two sections in First Steps, the horrors of any and Type assertion, and I finished the 9.6 exercise too [**Full-stack Open**](https://fullstackopen.com/)
-- **Practicing with Docker:** Today I found that is for the docker isolation that clipboard doesn't work as intended, even if you configure the sockets for xclip and xsel from the container to have access to the host ones, so, the only workaround is starting neovim within a tmux session. 
+- **Practicing with Docker:** Today I found that is for the docker isolation that clipboard doesn't work as intended, even if you configure the sockets for xclip and xsel from the container to have access to the host ones, so, the only workaround is starting neovim within a tmux session.
   - Repository: `https://github.com/Lenoxo/temp-nvim`
   - Docker Hub: `https://hub.docker.com/r/lenoxo/nvimdocker`
 
@@ -147,6 +169,7 @@ Also, it appears that the issue with my Twitter account is solved, so tomorrow I
   [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/challenges-in-process)
 
 **Thoughts**: I learned more, after some debugging with this error:
+
 ```bash
 ➜  HTML-CSS-JS-challenges git:(challenges-in-process) ✗ npm run calculateBmi 180 74
 
@@ -166,7 +189,7 @@ SyntaxError: /home/emanuel/Descargas/Temporal/Desarrollo Web/HTML-CSS-JS-challen
     at Module._compile (node:internal/modules/cjs/loader:1376:14)
 ```
 
-What happened is that I did wrong my npm script, because the correct flag for choosing a custom tsconfig.json, is `-P`, not `-p`. Using `npm run ts-node -- --help` was really helpful in this case. (An intended pun :D )  
+What happened is that I did wrong my npm script, because the correct flag for choosing a custom tsconfig.json, is `-P`, not `-p`. Using `npm run ts-node -- --help` was really helpful in this case. (An intended pun :D )
 
 ### Day 34: February 2, 2024
 
@@ -178,15 +201,17 @@ What happened is that I did wrong my npm script, because the correct flag for ch
 
 **Thoughts**: I learned something curious, and is that you can change the `tsconfig` file that ts-node will be using, passing the flag -P, followed by the archive route, I used something like this for one of my aliases in `package.json`:
 
-  ```jsonc
-  {
-  "scripts": {
-    //...
-    "calculateBmi": "ts-node -P src/TS-exercices/ejercicios-9.1-9.7/tsconfig.json src/TS-exercices/ejercicios-9.1-9.7/bmiCalculator.ts",
-    //...
-  }
-  ```
+```jsonc
+{
+"scripts": {
+  //...
+  "calculateBmi": "ts-node -P src/TS-exercices/ejercicios-9.1-9.7/tsconfig.json src/TS-exercices/ejercicios-9.1-9.7/bmiCalculator.ts",
+  //...
+}
+```
+
 And something weird happened yesterday with my Twitter account, until it's resolved, I won't give more details, the only thing I have to say, is that I keep holding on with this challenge (Like the song).
+
 ### Day 33: February 1, 2024
 
 **Today's Progress**:
@@ -197,13 +222,14 @@ And something weird happened yesterday with my Twitter account, until it's resol
 
 **Thoughts**: I did some research, testing by myself and found why the problem the last day happened, and it's because I was using in my package.json this line, and it has a conflict with ts-node, the easiest way to solve it in my case, was removing it:
 
-  ```jsonc
-  {
-    //...
-    type: module
-    //...
-  }
-  ```
+```jsonc
+{
+  //...
+  type: module
+  //...
+}
+```
+
 Also, these last 3 days I didn't advance in the challenge for some problems related to my current pc, but I managed to solve them, so, I'll be giving my best since now.
 
 ### Day 32: January 27, 2024
@@ -219,7 +245,7 @@ Also, these last 3 days I didn't advance in the challenge for some problems rela
 This is the bug I had, for future reference, and maybe solve it when I learn about Astro:
 
 ```bash
-HTML-CSS-JS-challenges git:(challenges-in-process) ✗ npm run ts-node file.ts                                       
+HTML-CSS-JS-challenges git:(challenges-in-process) ✗ npm run ts-node file.ts
 
 > square-solstice@0.0.1 ts-node
 > ts-node file.ts
@@ -261,24 +287,26 @@ birthdayList.add("May 25/2021");
 // What I was trying to use
 
 interface Clients<Type> {
-  add: (data: Type) => void
-  delete: () => Type
+  add: (data: Type) => void;
+  delete: () => Type;
 }
 
-const updatedClients: Clients<object> = [{ username: "Michael Jordan", age: 17 }]
+const updatedClients: Clients<object> = [
+  { username: "Michael Jordan", age: 17 },
+];
 
 // What I really wanted to do
 
-type Client = { username: string, age: number}
+type Client = { username: string; age: number };
 
 type ClientsArray = Array<Client>;
 
-const clientsArray: ClientsArray = [] 
+const clientsArray: ClientsArray = [];
 
-const newClient = { username: "Jason", age: 30}
+const newClient = { username: "Jason", age: 30 };
 
-clientsArray.push(newClient)
-clientsArray.push(45) // Another intentional error to practice with static type checking
+clientsArray.push(newClient);
+clientsArray.push(45); // Another intentional error to practice with static type checking
 ```
 
 ### Day 30: January 24, 2024
@@ -286,10 +314,12 @@ clientsArray.push(45) // Another intentional error to practice with static type 
 **Today's Progress**:
 
 - [**"Docker Course - Platzi"**](https://platzi.com/cursos/docker/): Today I finished this course, advancing five classes, where I learned:
-  - The differences between shell vs exec commands in Dockerfiles, also when to use them. 
+
+  - The differences between shell vs exec commands in Dockerfiles, also when to use them.
   - How to make executable binaries in docker allowing changing parameters combining ENTRYPOINT and CMD in the Dockerfiles
   - What is and how to use the build context in docker images
   - How to use multi-stage build when building images
+
     - A curious detail for me is that you can reference past images layers using the builder 'nickname' to call it in one easy way, and the `--from` flag in the Dockerfiles:
 
       ```yml
@@ -326,16 +356,18 @@ clientsArray.push(45) // Another intentional error to practice with static type 
 
       CMD ["node", "index.js"]
       ```
+
   - **Section Notes:** (They are in Spanish, because it's easier for me to write them in my mother tongue and the course is in Spanish too)
     - From the yesterday promise:
       ![notes](https://imgur.com/qfOauJi.png)
     - Today's notes:
       ![notes](https://imgur.com/pGyhDsA.png)
-      
   - also, I learned more useful commands:
+
     - Commands:
+
       - Making a build using a different Dockerfile:
-	      `docker build -t prodimg -f build/production.Dockerfile .`
+        `docker build -t prodimg -f build/production.Dockerfile .`
 
       - Using dive from a container, to see an image details that is located in the host machine:
         `sudo docker run -it --rm --name divecontainer -v /var/run/docker.sock:/var/run/docker.sock wagoodman/dive prodimg`
@@ -349,40 +381,37 @@ Also, tomorrow I'll be covering typescript basics, while improving my personal p
 **Today's Progress**:
 
 - [**"Docker Course - Platzi"**](https://platzi.com/cursos/docker/): Today I advanced two classes, where I learned about docker-compose.override.yml, how to use it and write personalized configs for docker-compose, and lastly how to manage disk space and limit ram usage for docker containers, also I learned more useful commands:
+
   - Tomorrow I'll be sharing here this section notes, because I finished it today.
   - Also, another curious detail I learned today, is that, containers, only can listen to one port in the host machine per container, so, if you want to horizontally scale a service in docker-compose, you would need to use a range of ports, like this in your docker-compose file:
     ```yml
     # ...
     ports:
-    - "3000-3003:3000"
+      - "3000-3003:3000"
     # ...
     ```
-  - Commands:
-    - Clean unused containers, networks and images:
-      `docker container prune`
-      `docker network prune`
-      `docker image prune`
-    - Clean all unused files in the system by docker
-	    `docker system prune`
-    - Force rm containers
-	    `docker rm -f containerName or id`
-    - Limit ram usage of a container
-	    `docker run -d --memory 40m or 1g app`
-    - Check if a container stopped because it ran Out Of Memory
-	    `docker inspect containerName`
-      output:
-	    ```jsonc
+  - Commands: - Clean unused containers, networks and images:
+    - `docker container prune`
+    - `docker network prune`
+    - `docker image prune` - Clean all unused files in the system by docker
+    - `docker system prune` - Force rm containers
+    - `docker rm -f containerName or id` - Limit ram usage of a container
+    - `docker run -d --memory 40m or 1g app` - Check if a container stopped because it ran Out Of Memory
+      `docker inspect containerName`
+  - output:
+
+        ```jsonc
           {
           // ...
           OOMKilled, true
           // ...
           }
-      ```
-    - Check ram usage of docker
-	    `docker stats`
-    - Horizontally scale containers used in a service:
-      `docker-compose up -d --scale appService=4`
-**Thoughts**: Today for personal reasons I only advanced one hour, so yeah, nothing under my control for now.
+        ```
+
+    `- Check ram usage of docker
+   `docker stats`- Horizontally scale containers used in a service:
+   `docker-compose up -d --scale appService=4`
+    **Thoughts**: Today for personal reasons I only advanced one hour, so yeah, nothing under my control for now.
 
 ### Day 28: January 22, 2024
 
@@ -400,20 +429,20 @@ Also, tomorrow I'll be covering typescript basics, while improving my personal p
     ```
   - Commands:
     - Activate all services listened in the docker-compose file
-       `docker-compose up`
+      `docker-compose up`
     - See logs
       - of the service
-         `docker-compose logs serviceName`
+        `docker-compose logs serviceName`
       - Follow service logs
-         `docker-compose logs -f serviceName`
+        `docker-compose logs -f serviceName`
     - Execute a command within a service container
-       `docker-compose exec serviceName command`
+      `docker-compose exec serviceName command`
     - Stop all services
-       `docker-compose down`
+      `docker-compose down`
     - Build an image for a service, specified in docker-compose.yml
-       `docker-compose build serviceName`
+      `docker-compose build serviceName`
     - Activate all services detached
-        `docker-compose up -d`
+      `docker-compose up -d`
 
 **Thoughts**: Today I had a bit more time to practice, one and a half hour to be precise. Also, I knew just basic commands for using docker-compose when I was building my most recent backend project, Devshop API, and it was groundbreaking to discover how I can configure even more of the services, and I know tomorrow I'll learn even more, so, I'm excited about that.
 
@@ -427,12 +456,12 @@ Also, tomorrow I'll be covering typescript basics, while improving my personal p
   - Another curious detail for me, is that, if you organize well your steps when using a Dockerfile, you optimize build time for images, thanks to the efficient cache use.
   - Commands:
     - List docker networks
-       `docker network ls`
+      `docker network ls`
     - Create new network
-        `docker network create creativeName`
+      `docker network create creativeName`
     - Connect container to a docker network
-        `docker network connect networkName containerName`
-        The above command works ONLY if the containers you want to connect, are in the same network
+      `docker network connect networkName containerName`
+      The above command works ONLY if the containers you want to connect, are in the same network
     - Assign env variables to containers
       `docker run --env MONGO_URL=mongodb://...`
 
@@ -462,36 +491,37 @@ Also, tomorrow I'll be covering typescript basics, while improving my personal p
   ```bash
   ➜  dockerImages docker push lenoxo/ubuntu:message
   The push refers to repository [docker.io/lenoxo/ubuntu]
-  6389d27b5662: Preparing 
-  a1360aae5271: Preparing 
+  6389d27b5662: Preparing
+  a1360aae5271: Preparing
   denied: requested access to the resource is denied
   ```
 
 What I tried is this:
-  1. Doing the same push in another environment, in this case, I used an instance of Play with Docker, and the above command worked as intended:
 
-  ```bash
-  [node1] (local) root@192.168.0.18 ~
-  $ docker push lenoxo/ubuntu:message
-  The push refers to repository [docker.io/lenoxo/ubuntu]
-  f3c98273d297: Layer already exists 
-  8e87ff28f1b5: Layer already exists 
-  message: digest: sha256:1c69461ad98cb1131e7460afa03f5fa31cbbb7eac9e22c7388089657206ff07a size: 736
-  ```
-    
-  2. Restoring a past snapshot I had before I installed docker desktop in Arch Linux and trying the command again, but with sudo, because I didn't configure at that time the docker group, worked as intended.
+1. Doing the same push in another environment, in this case, I used an instance of Play with Docker, and the above command worked as intended:
 
-  ```bash
-  ➜  ~ sudo docker push lenoxo/ubuntu:message
-  [sudo] contraseña para emanuel: 
-  The push refers to repository [docker.io/lenoxo/ubuntu]
-  a7bcbb0d1b6a: Layer already exists 
-  8e87ff28f1b5: Layer already exists 
-  message: digest: sha256:d7d9f02abb6d491f5a3ee230c1e0ed8044dbaf3f5deb9be84cfe03afe43d1df6 size: 736
-  ```
+```bash
+[node1] (local) root@192.168.0.18 ~
+$ docker push lenoxo/ubuntu:message
+The push refers to repository [docker.io/lenoxo/ubuntu]
+f3c98273d297: Layer already exists
+8e87ff28f1b5: Layer already exists
+message: digest: sha256:1c69461ad98cb1131e7460afa03f5fa31cbbb7eac9e22c7388089657206ff07a size: 736
+```
 
-  4. Going back to the docker desktop snapshot and trying to clear all docker config, and pass config too, before using again docker push, and the error happened again.
-  5. Removing with `pacman -Rns docker-desktop` and trying again the command, both ways, using and not using sudo, and the error happened again.
+2. Restoring a past snapshot I had before I installed docker desktop in Arch Linux and trying the command again, but with sudo, because I didn't configure at that time the docker group, worked as intended.
+
+```bash
+➜  ~ sudo docker push lenoxo/ubuntu:message
+[sudo] contraseña para emanuel:
+The push refers to repository [docker.io/lenoxo/ubuntu]
+a7bcbb0d1b6a: Layer already exists
+8e87ff28f1b5: Layer already exists
+message: digest: sha256:d7d9f02abb6d491f5a3ee230c1e0ed8044dbaf3f5deb9be84cfe03afe43d1df6 size: 736
+```
+
+4. Going back to the docker desktop snapshot and trying to clear all docker config, and pass config too, before using again docker push, and the error happened again.
+5. Removing with `pacman -Rns docker-desktop` and trying again the command, both ways, using and not using sudo, and the error happened again.
 
 So, what I have to say is that it appears to be a rare bug with how the configuration is rewritten by docker-desktop in Arch Linux, and because the package still in experimental phase, I think that explains why this happened.
 For now, I'll just use docker and docker-compose installed from official repos in Arch Linux, and maybe in the weekend, I'll report this bug in the docker community.
@@ -517,12 +547,12 @@ For now, I'll just use docker and docker-compose installed from official repos i
   ```bash
   ➜  dockerImages docker push lenoxo/ubuntu:message
   The push refers to repository [docker.io/lenoxo/ubuntu]
-  6389d27b5662: Preparing 
-  a1360aae5271: Preparing 
+  6389d27b5662: Preparing
+  a1360aae5271: Preparing
   denied: requested access to the resource is denied
   ```
 
-**Thoughts**: Well, today I advanced in this challenge more than the hour, so, I'll try to keep making bigger the time I reserve to practice in this challenge. 
+**Thoughts**: Well, today I advanced in this challenge more than the hour, so, I'll try to keep making bigger the time I reserve to practice in this challenge.
 
 ### Day 23: January 15, 2024
 
@@ -548,7 +578,7 @@ For now, I'll just use docker and docker-compose installed from official repos i
     `docker run --name alpha -d ubuntu tail -f /dev/null`
   - Run a command in a container
     `docker exec nameCont echo "Hello world"`
-  - Search container process ID  (use name / ID)
+  - Search container process ID (use name / ID)
     `docker inspect --format '{{.State.Pid}}' alpha`
   - Stop a container
     `docker stop id or name`
@@ -558,7 +588,7 @@ For now, I'll just use docker and docker-compose installed from official repos i
     `docker logs -f --tail 3 proxy`
 - Notes of this section (They are in Spanish, because it's easier for me to write them in my mother tongue and the course is in Spanish too):
   - ![notes](https://imgur.com/xTgrUZw.png)
-**Thoughts**: I had less time today because I spent most of the day with my family, and yesterday with some friends I won't see up to 8 months, but I managed to advance a little.
+    **Thoughts**: I had less time today because I spent most of the day with my family, and yesterday with some friends I won't see up to 8 months, but I managed to advance a little.
 
 ### Day 21: January 12, 2024
 
@@ -589,9 +619,10 @@ When I finish a big section of the course, I'll put some notes again.
 
 - Some of today notes (They are in Spanish, because it's easier for me to write them in my mother tongue and the course is in Spanish too):
 
-  ![notes](https://imgur.com/q78ZAUw.png) 
+  ![notes](https://imgur.com/q78ZAUw.png)
 
 - Also, I had a few bugs to fix during my Docker-Destop install in Arch Linux, because there is just an experimental package, and one of the downsides it has that, currently the login process doesn't work in Docker-Desktop.
+
   - I managed to barely fix this by logging in using the CLI, but the account just logout after I reboot or close Docker-Desktop.
 
 - And other bug I had, but that was all my fault, is that for 15 minutes I thought that dependencies weren't in the Arch repositories:
@@ -606,7 +637,7 @@ When I finish a big section of the course, I'll put some notes again.
 **Today's Progress**:
 
 - [**"Docker Course - Platzi"**](https://platzi.com/cursos/docker/): Today I did a pre-study session to get in my head the basic structure of the topic, which are the different parts of the course, why is Docker organized that way and why is so important to learn about it.
-Since tomorrow I'll start applying some things during learning that I hope will help me learn faster and retain better, combined with practice of course.
+  Since tomorrow I'll start applying some things during learning that I hope will help me learn faster and retain better, combined with practice of course.
 
 **Thoughts**: Today I had less time to practice, just about 1 hour, so I had to suspend for now the reinforcement I was doing with my knowledge gaps in the DSA course.
 
@@ -624,7 +655,6 @@ Since tomorrow I'll start applying some things during learning that I hope will 
 **Thoughts**: Today I finished very late the recall session, because I had some incidentals that I only complete after late night. And since tomorrow, I'll start learning about Docker.
 
 Also, I didn't write here almost anything today because currently I'm very tired after this day. Hope to get a good night sleep.
-
 
 ### Day 17: January 8, 2024
 
@@ -659,6 +689,7 @@ Ah, yeah, I'll start improving my projects and building new ones while I learn a
 **Thoughts**: I'm getting more comfortable with the pen tablet, and I feel I need to seek a way to implement all these algorithms in my current and coming projects, and later on, search for a way to see how the maps work in js, not the abstracted way, but the raw way.
 
 And I had a funny bug when I was implementing the Dijkstra algorithm, because I forgot to iterate and just put an if statement, so it was just pushing to `out, curr` one time, not the full `prev` path:
+
 ```js
 
     const out: number[] = [];
@@ -758,6 +789,7 @@ Here I attach part of today's notes to show this:
   - As always, all the exercises I did, are in one of my repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/e5164b0b3f20788a9302cb8a2a695e21f54b7b40)
 
 **Thoughts**: Today I had even less time than yesterday, just an hour, but enough time to complete today's challenge, so, I'm happy with it.
+
 ### Day 9: December 29, 2023
 
 **Today's Progress**:
@@ -765,7 +797,7 @@ Here I attach part of today's notes to show this:
 - [**"The Last Algorithm Course You'll Need"**](https://frontendmasters.com/courses/algorithms/): Today I advanced four classes, where I learned what is Search by Breath First in Binary Trees, how to implement it, how to consider using this one or Depth First Search in Binary Trees, and lastly, how to compare binary trees both in structure and values.
   - **Bottom Line:**
     - `In Depth First Search:` You're implicitly using a Stack, so it preserves the shape / order of the structure.
-    That makes it perfect to compare by shape Binary Trees.
+      That makes it perfect to compare by shape Binary Trees.
     - `In Breath First Search:` You're using implicitly a Queue, so it doesn't preserve shape like a Stack would.
   - As always, all the exercises I did, are in one of my repos: [click](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/a2b36b999d7db7572eddc88fe51cfbc3d8114c40)
 
