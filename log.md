@@ -27,6 +27,31 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 49: April 26, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript:** Today I advanced practicing adding the HTTP POST handling for a new Diary Entry in `diario-vuelo-Ilari`
+
+  Something I would like to highlight is that you can use `Math.max()` in a more dynamic way, like this:
+
+  ```ts
+  function addEntry(entry: NewDiaryEntry): DiaryEntry {
+    const savedEntry = {
+      id: Math.max(...entries.map((e) => e.id + 1)),
+      ...entry,
+    };
+    entries.push(savedEntry);
+    return savedEntry;
+  }
+  ```
+
+  Link to the repos used:
+
+  1. [diario-vuelo-Ilari](https://github.com/Lenoxo/diario-vuelo-Ilari)
+
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+
 ### Day 48: April 25, 2024
 
 **Today's Progress**:
