@@ -27,6 +27,44 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 48: April 25, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects:** Today I advanced practicing with exercises 9.10 and 9.11 in the exercise-repo. Implementing utility types and connecting the endpoints `/api/diagnose` and `/api/patients` to the frontend.
+
+  One thing I would like to highlight, is that you can destructure the variable for an element within `Array.map()`, here is what I implemented for reference:
+
+  ```ts
+  import patientsData from "../../data/patients";
+  import { NonSsnPatient, Patient } from "../types";
+
+  function getAllPatients(): Patient[] {
+    return patientsData;
+  }
+
+  function getAllPatientsWithoutSsn(): NonSsnPatient[] {
+    return patientsData.map(
+      ({ id, dateOfBirth, name, gender, occupation }) => ({
+        id,
+        dateOfBirth,
+        name,
+        gender,
+        occupation,
+      }),
+    );
+  }
+
+  export { getAllPatients, getAllPatientsWithoutSsn };
+  ```
+
+  Link to the repos used:
+
+  1. [exercises repo - backend](https://github.com/Lenoxo/backend-typescript-fullstack-open)
+  2. [patientor fork - frontend](https://github.com/Lenoxo/patientor)
+
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+
 ### Day 47: April 24, 2024
 
 **Today's Progress**:
