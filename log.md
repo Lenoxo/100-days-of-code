@@ -27,6 +27,26 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 54: May 1, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects** Today I advanced putting all the 100 days of code entries / diaries in order, updating it with my latest advancements in the challenge.
+
+  Now, I want to apologize for not following the challenge for almost 2 months, what I can say is that those days were difficult ones mainly for family and personal conflicts.
+
+  Also, some accounts of mine, like the Twitter one, received some reports a while ago, just for avoiding false positives and blocking without any good reason again, I didn't public anything until now.
+
+  Starting tomorrow, I'll be using again LinkedIn and Twitter for sharing my progress, because it's a part of the challenge I don't want to avoid to fully complete it.
+
+  Link to the repos used:
+
+  1. This repo that you're using to read the file :)
+
+**Thoughts**: Jaja, I was supposed to talk the stuff above in this section, but I consider it to be relevant for my path during the challenge, so, I'll let that slide to my perfectionist self.
+
+Aside of that. Just as a curious detail, probably this is the day were I write the most in a diary I can remember in my entire life.
+
 ### Day 53: April 30, 2024
 
 **Today's Progress**:
