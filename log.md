@@ -27,6 +27,22 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 53: April 30, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects** Today I advanced mainly organizing some personal configs for my dev environment, like configs for `waybar, hyprland, dunst...`.
+
+  And lastly, thanks to be coding using `gtk-css` for waybar styles, I learned about an interesting pseudoclass, `element:empty`, for applying certain styles if an element is empty.
+
+  In `gtk-css` it doesn't work that way, but the research stills useful because now I can practice with that class for the upcoming days.
+
+  Link to the repos used:
+
+  1. Those are my private files, for now I won't share them.
+
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+
 ### Day 52: April 29, 2024
 
 **Today's Progress**:
