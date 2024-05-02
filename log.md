@@ -27,11 +27,22 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 47: April 24, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects:** Today I learned about the `Omit<TypeName, "key or value to omit"` and applied it in the current project of `diario-vuelo-Ilari`. Also, I learned a bit of how to detect the subfiles in `ts-node-dev`. Mainly you have to set the **directory to watch**, like `src/`, not the `--watch` or `--exit-child` flags.
+
+  Link to the repos used:
+
+  1. [diario-vuelo-Ilari](https://github.com/Lenoxo/diario-vuelo-Ilari)
+
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+
 ### Day 46: April 23, 2024
 
 **Today's Progress**:
 
-- **Practicing with Personal Projects:** Today I continued learning more about Typescript, on how the json imports as modules works, practicing with the diario-vuelo-Ilari project.
 - **Learning Typescript:** Today I continued learning more about Typescript, on how the json imports as modules works, practicing with the diario-vuelo-Ilari project.
 
   In one sentence, the json import recommendation is that, when you work with modules in the project, name the files differently, even if the extension is not the same. Because the `.js` files are imported first than the `.json` ones thanks to the alphabetic order.
