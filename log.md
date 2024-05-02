@@ -27,6 +27,20 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 50: April 27, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript:** Today I advanced practicing with the `diario-vuelo-Ilari` project implementing type validation even in execution time thanks to `enum` and `type predicates` applied in addDiaryEntry.
+
+  Something I would like to improve is to avoid making large commits like today's one. So I have to plan and divide better the subproblems and commit their solutions.
+
+  Link to the repos used:
+
+  1. [diario-vuelo-Ilari](https://github.com/Lenoxo/diario-vuelo-Ilari)
+
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+
 ### Day 49: April 26, 2024
 
 **Today's Progress**:
