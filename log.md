@@ -27,6 +27,19 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 51: April 28, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects** Today I advanced practicing the backend for `patientor`, adding the basic functionality to add a new patient.
+
+  Link to the repos used:
+
+  1. [exercises repo - backend](https://github.com/Lenoxo/backend-typescript-fullstack-open)
+  2. [patientor fork - frontend](https://github.com/Lenoxo/patientor)
+
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+
 ### Day 50: April 27, 2024
 
 **Today's Progress**:
