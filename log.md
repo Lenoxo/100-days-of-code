@@ -27,6 +27,19 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 44: April 21, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects:** Today I continued improving one of my first projects, YardSale, connecting it with more pages and fixing the dark mode functionality.
+- **Practicing with Personal Projects:** Today I continued improving one of my first projects, YardSale, connecting it with more pages and fixing the dark mode functionality. Also I learned about the `<select>` element and how to style it.
+
+  Link to the repos used:
+
+  1. [exercises repo - YardSale](https://github.com/Lenoxo/YardSale)
+
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+
 ### Day 43: April 20, 2024
 
 **Today's Progress**:
