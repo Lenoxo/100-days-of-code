@@ -61,7 +61,7 @@ Aside of that. Just as a curious detail, probably this is the day were I write t
 
   1. Those are my private files, for now I won't share them.
 
-**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 note](#day-54-may-1-2024)
 
 ### Day 52: April 29, 2024
 
@@ -133,7 +133,7 @@ Aside of that. Just as a curious detail, probably this is the day were I write t
   1. [exercises repo - backend](https://github.com/Lenoxo/backend-typescript-fullstack-open)
   2. [patientor fork - frontend](https://github.com/Lenoxo/patientor)
 
-**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 note](#day-54-may-1-2024)
 
 ### Day 51: April 28, 2024
 
@@ -146,7 +146,7 @@ Aside of that. Just as a curious detail, probably this is the day were I write t
   1. [exercises repo - backend](https://github.com/Lenoxo/backend-typescript-fullstack-open)
   2. [patientor fork - frontend](https://github.com/Lenoxo/patientor)
 
-**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 note](#day-54-may-1-2024)
 
 ### Day 50: April 27, 2024
 
@@ -160,7 +160,7 @@ Aside of that. Just as a curious detail, probably this is the day were I write t
 
   1. [diario-vuelo-Ilari](https://github.com/Lenoxo/diario-vuelo-Ilari)
 
-**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 note](#day-54-may-1-2024)
 
 ### Day 49: April 26, 2024
 
@@ -185,7 +185,7 @@ Aside of that. Just as a curious detail, probably this is the day were I write t
 
   1. [diario-vuelo-Ilari](https://github.com/Lenoxo/diario-vuelo-Ilari)
 
-**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 note](#day-54-may-1-2024)
 
 ### Day 48: April 25, 2024
 
@@ -223,7 +223,7 @@ Aside of that. Just as a curious detail, probably this is the day were I write t
   1. [exercises repo - backend](https://github.com/Lenoxo/backend-typescript-fullstack-open)
   2. [patientor fork - frontend](https://github.com/Lenoxo/patientor)
 
-**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 note](#day-54-may-1-2024)
 
 ### Day 47: April 24, 2024
 
@@ -235,7 +235,7 @@ Aside of that. Just as a curious detail, probably this is the day were I write t
 
   1. [diario-vuelo-Ilari](https://github.com/Lenoxo/diario-vuelo-Ilari)
 
-**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 note](#day-54-may-1-2024)
 
 ### Day 46: April 23, 2024
 
@@ -249,7 +249,7 @@ Aside of that. Just as a curious detail, probably this is the day were I write t
 
   1. [diario-vuelo-Ilari](https://github.com/Lenoxo/diario-vuelo-Ilari)
 
-**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 note](#day-54-may-1-2024)
 
 ### Day 45: April 22, 2024
 
@@ -261,7 +261,7 @@ Aside of that. Just as a curious detail, probably this is the day were I write t
 
   1. [exercises repo - YardSale](https://github.com/Lenoxo/YardSale)
 
-**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 note](#day-54-may-1-2024)
 
 ### Day 44: April 21, 2024
 
@@ -273,7 +273,7 @@ Aside of that. Just as a curious detail, probably this is the day were I write t
 
   1. [exercises repo - YardSale](https://github.com/Lenoxo/YardSale)
 
-**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 note](#day-54-may-1-2024)
 
 ### Day 43: April 20, 2024
 
@@ -285,7 +285,7 @@ Aside of that. Just as a curious detail, probably this is the day were I write t
 
   1. [exercises repo - YardSale](https://github.com/Lenoxo/YardSale)
 
-**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 note](#day-54-may-1-2024)
 
 ### Day 42: April 19, 2024
 
@@ -298,7 +298,7 @@ Aside of that. Just as a curious detail, probably this is the day were I write t
   1. [exercises repo - backend](https://github.com/Lenoxo/backend-typescript-fullstack-open)
   2. [patientor fork - frontend](https://github.com/Lenoxo/patientor)
 
-**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 note](#day-54-may-1-2024)
 
 ### Day 41: April 18, 2024
 
@@ -314,9 +314,7 @@ Aside of that. Just as a curious detail, probably this is the day were I write t
 
   2. [exercises repo](https://github.com/Lenoxo/backend-typescript-fullstack-open)
 
-  <!-- TODO: Update thoughts with the May 1 Note here -->
-
-**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 note](#day-54-may-1-2024)
 
 ### Day 40: February 10, 2024
 
