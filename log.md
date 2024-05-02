@@ -27,6 +27,78 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 52: April 29, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects** Today I advanced practicing the backend for `patientor`, improving the logic to add a new patient, with error handling, data and type checking and also, fixing an error with the base patient data.
+
+  For future reference, you can solve pre-existent data conflicts using the types for checking data (`NewPatient`), and then, defining them as the complete data (`Patient`), like in this example:
+
+  ```ts
+  import { Patient } from "../src/types";
+  import { checkPatientData } from "../src/utils";
+
+  const data = [
+    {
+      id: "d2773336-f723-11e9-8f0b-362b9e155667",
+      name: "John McClane",
+      dateOfBirth: "1986-07-09",
+      ssn: "090786-122X",
+      gender: "male",
+      occupation: "New york city cop",
+    },
+    {
+      id: "d2773598-f723-11e9-8f0b-362b9e155667",
+      name: "Martin Riggs",
+      dateOfBirth: "1979-01-30",
+      ssn: "300179-77A",
+      gender: "male",
+      occupation: "Cop",
+    },
+    {
+      id: "d27736ec-f723-11e9-8f0b-362b9e155667",
+      name: "Hans Gruber",
+      dateOfBirth: "1970-04-25",
+      ssn: "250470-555L",
+      gender: "other",
+      occupation: "Technician",
+    },
+    {
+      id: "d2773822-f723-11e9-8f0b-362b9e155667",
+      name: "Dana Scully",
+      dateOfBirth: "1974-01-05",
+      ssn: "050174-432N",
+      gender: "female",
+      occupation: "Forensic Pathologist",
+    },
+    {
+      id: "d2773c6e-f723-11e9-8f0b-362b9e155667",
+      name: "Matti Luukkainen",
+      dateOfBirth: "1971-04-09",
+      ssn: "090471-8890",
+      gender: "male",
+      occupation: "Digital evangelist",
+    },
+  ];
+
+  // The object mapping is done here to ensure that the previous data matches with gender type (as enum)
+  const patientsData: Patient[] = data.map((patient) => {
+    const newPatient = checkPatientData(patient) as Patient;
+    newPatient.id = patient.id;
+    return newPatient;
+  });
+
+  export default patientsData;
+  ```
+
+  Link to the repos used:
+
+  1. [exercises repo - backend](https://github.com/Lenoxo/backend-typescript-fullstack-open)
+  2. [patientor fork - frontend](https://github.com/Lenoxo/patientor)
+
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+
 ### Day 51: April 28, 2024
 
 **Today's Progress**:
