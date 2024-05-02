@@ -27,6 +27,21 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 42: April 19, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript:** Today I advanced completing exercise 9.9, connecting the backend endpoint to the patientor frontend in `/ping` when making a request from the frontend
+
+  Link to the repos used:
+
+  1. [exercises repo](https://github.com/Lenoxo/backend-typescript-fullstack-open)
+  2. [patientor fork](https://github.com/Lenoxo/patientor)
+
+  <!-- TODO: Update thoughts with the May 1 Note here -->
+
+**Thoughts**: I'll give explanations of why I stopped taking notes in this diary until now in the [May 1 Note]()
+
 ### Day 41: April 18, 2024
 
 **Today's Progress**:
@@ -400,17 +415,18 @@ Also, tomorrow I'll be covering typescript basics, while improving my personal p
       `docker inspect containerName`
   - output:
 
-        ```jsonc
-          {
-          // ...
-          OOMKilled, true
-          // ...
-          }
-        ```
+             ```jsonc
+               {
+               // ...
+               OOMKilled, true
+               // ...
+               }
+             ```
 
-    `- Check ram usage of docker
-   `docker stats`- Horizontally scale containers used in a service:
-   `docker-compose up -d --scale appService=4`
+        `- Check ram usage of docker
+
+    `docker stats`- Horizontally scale containers used in a service:
+    `docker-compose up -d --scale appService=4`
     **Thoughts**: Today for personal reasons I only advanced one hour, so yeah, nothing under my control for now.
 
 ### Day 28: January 22, 2024
