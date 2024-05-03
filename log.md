@@ -27,6 +27,41 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 55: May 2, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I advanced completing the exercise 9.14 following the Typescript lessons in Fullstack Open.
+
+The exercise was about dividing the App.tsx parts of a course page in 3 components, `Header`, `Content` and `Total`, adding types where needed.
+
+Here is an example of what I added in `Content`:
+
+```ts
+interface CourseData {
+  name: string;
+  exerciseCount: number;
+}
+
+export function Content(props: CourseData) {
+  return (
+    <p>
+      {props.name} {props.exerciseCount}
+    </p>
+  );
+}
+```
+
+What I would like to highlight is that at first assigning types to the props is quite easy. But an useful tip I found when it comes about where to define them, is that if you only use in one file the types, define them in that same file, but if the types are used in multiple files, then it's better to use a types.ts file.
+
+Link to the repos used:
+
+1. [Half Stack application](https://github.com/Lenoxo/Half-stack-Courses-React-TS)
+
+**Thoughts**: Today I had less time to practice that I wanted but well, unexpected things happen everytime.
+
+Aside of that. Just as a curious detail, probably this is the day were I write the most in a diary I can remember in my entire life.
+
 ### Day 54: May 1, 2024
 
 **Today's Progress**:
