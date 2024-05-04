@@ -27,6 +27,74 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 56: May 3, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I advanced learning about how to implement these 3 concepts:
+
+  - Literal types
+  - Discriminated unions
+  - exhaustive checking
+    - Using the never value to handle unexpected types.
+
+  And I implemented those concepts solving the exercise 9.15. Following the Typescript lessons in Fullstack Open.
+
+The exercise was long, but in brief, I needed to add new types for the courses, extend common types between interfaces and implement the exhaustive checking for every interface.
+
+Also, do the exhaustive checking in a new component, `Part`, referring to a part / module of a complete course.
+
+That's to validate the `coursePart` data.
+
+Here is just a bit of what I did during the exercise:
+
+```ts
+import { CoursePart } from "../types";
+
+export function Part({ coursePart }: { coursePart: CoursePart }) {
+  /**
+   * Helper function for exhaustive type checking
+   */
+  const assertNever = (value: never): never => {
+    throw new Error(
+      `Unhandled discriminated union member: ${JSON.stringify(value)}`,
+    );
+  };
+
+  switch (coursePart.kind) {
+    case "basic":
+      return (
+        <article>
+          <h3>{coursePart.name}</h3>
+          <p>Exercises: {coursePart.exerciseCount}</p>
+          <p>{coursePart.description}</p>
+        </article>
+      );
+
+    case "group":
+      // ...
+    case "background":
+      // ...
+    case "special":
+      // ...
+
+    default:
+      return assertNever(coursePart);
+  }
+}
+```
+
+Link to the repos used:
+
+1. [Half Stack application](https://github.com/Lenoxo/Half-stack-Courses-React-TS)
+
+**Thoughts**: Today was very difficult for me to focus on the coding part, mainly because of two factors:
+
+- the environment where I was practicing
+- Not having a good night sleep, just 4.5 hrs the last night. Mainly because of things outside of my control.
+
+However, what I can control, is to practice earlier programming, and going to sleep earlier too, maybe I get to squeeze 1 or 2 hours while sleeping 8+ hours.
+
 ### Day 55: May 2, 2024
 
 **Today's Progress**:
