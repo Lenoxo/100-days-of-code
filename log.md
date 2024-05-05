@@ -27,6 +27,30 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 57: May 4, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I advanced learning about how to implement these 2 concepts:
+
+  - Adding types to react states
+  - Adding types to generic functions, like `axios.get()`
+
+  And I implemented those concepts solving the exercise 9.16. Following the Typescript lessons in Fullstack Open.
+
+  The exercise in brief, was focused on rendering the diaries data from the backend, using types in the states and in `axios.get()`
+
+  But something that took me more than I expected was a mistake I made, because I forgot to `git checkout exercise-9.16` and instead made all changes in the `main` branch.
+
+  To solve it, I had to checkout to `exercise-9.16` from the first commit, and cherry pick commits from main until the last one. And then, sadly, make a `git reset --hard` to the first commit in the main branch.
+
+Link to the repos used:
+
+1. [backend](https://github.com/Lenoxo/diario-vuelo-Ilari-back)
+2. [frontend](https://github.com/Lenoxo/diario-vuelo-Ilari-front)
+
+**Thoughts**: The git problem part took me more time than expected because I forgot some things about git usage, and had to google it to remember it, so, as a lesson for me, remember after the first commit, making a checkout to the work branch.
+
 ### Day 56: May 3, 2024
 
 **Today's Progress**:
