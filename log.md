@@ -27,6 +27,28 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 58: May 5, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I practiced solving exercise 9.17 from Fullstack Open section of Typescript:
+
+  This exercise was about:
+
+      Adding a new Diary entry sending it from the frontend to the backend.
+      For this challenge, it's not necessary to add type and data validations, because we assume that the data will be send in the correct format.
+
+  What changed from yesterday on the way I solved it, is that I tracked my progress in Github, using the `ISSUES` and `PROJECT` functionalities.
+
+  - Link to the issue related: [Exercise 9.17](https://github.com/Lenoxo/diario-vuelo-Ilari-front/issues/2)
+
+Link to the repos used:
+
+1. [backend](https://github.com/Lenoxo/diario-vuelo-Ilari-back)
+2. [frontend](https://github.com/Lenoxo/diario-vuelo-Ilari-front)
+
+**Thoughts**: I just remembered the proper way of how to handle projects that Robert told in his video, and now, I look forward to keep improving in that part of track my progress like the professionals do.
+
 ### Day 57: May 4, 2024
 
 **Today's Progress**:
