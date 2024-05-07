@@ -35,11 +35,12 @@
 
   This exercise was about:
 
-  - Showing in the frontend if adding the diary entry failed and why (with the message error and status code), with a red color.
+  - Showing in the frontend if adding the diary entry failed and why (the message error and status code), with a red color.
 
   I did the corresponding issue tracking in github. And lastly, one thing I had a problem for a while is that I didn't understand well which were the `error.response` object properties, and after a while, I saw the devtools and finally found the correct way to access the status code and error message:
 
   ```js
+  // ...
   export function DiaryForm() {
   const [error, setError] = useState<PostDiaryError>();
 
