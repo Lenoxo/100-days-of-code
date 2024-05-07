@@ -27,6 +27,63 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 59: May 6, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I practiced solving exercise 9.18 from Fullstack Open section of Typescript:
+
+  This exercise was about:
+
+  - Showing in the frontend if adding the diary entry failed and why (with the message error and status code), with a red color.
+
+  I did the corresponding issue tracking in github. And lastly, one thing I had a problem for a while is that I didn't understand well which were the `error.response` object properties, and after a while, I saw the devtools and finally found the correct way to access the status code and error message:
+
+  ```js
+  export function DiaryForm() {
+  const [error, setError] = useState<PostDiaryError>();
+
+  function handleSubmit(event: React.SyntheticEvent) {
+    event.preventDefault();
+    const form = event.target as HTMLFormElement;
+
+    // ...
+
+    axios
+      .post(`${baseUrl}/api/diaries`, { date, visibility, weather, comment })
+      .then(() => {
+        alert("Added new entry in the diary");
+        setError(false);
+      })
+      .catch((error) => {
+        if (axios.isAxiosError(error)) {
+          setError(error);
+        } else {
+          console.log(error);
+        }
+      });
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+          {error && (
+        <p className="error-message">
+          Error {error.response?.status}: {error.response?.data as string}
+        </p>
+      )}
+      <h2>Add entry</h2>
+      // Rest of the code...
+  ```
+
+  - Link to the issue related: [Exercise 9.18](https://github.com/Lenoxo/diario-vuelo-Ilari-front/issues/4)
+
+Link to the repos used:
+
+1. [backend](https://github.com/Lenoxo/diario-vuelo-Ilari-back)
+2. [frontend](https://github.com/Lenoxo/diario-vuelo-Ilari-front)
+
+**Thoughts**: Well, today I almost had no time to practice, just about 70 minutes for all, but I managed to finish today the challenge with a borrowed computed while I'm visiting someone.
+
 ### Day 58: May 5, 2024
 
 **Today's Progress**:
