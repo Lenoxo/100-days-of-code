@@ -27,6 +27,47 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 60: May 7, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I practiced solving exercise 9.19, 9.20 and 9.21 from Fullstack Open section of Typescript:
+
+  Those exercises were about:
+
+  1. **Exercise 9.19:**
+     - Replacing input types from text to the correct ones
+       - Date: With input type date
+       - Weather and Visibility: With input type radio
+       - Comment with input type text
+     - Also, it's necessary to have all the app correctly typed, with zero errors in Typescript and ESlint.
+     - **Solution** In the exercise 9.17 I did the major part of this challenge, so, I just focused on adding the correct type for the form data and that's that.
+  2. **Exercise 9.20:**
+     - This was in the patientor-backend repo
+     - Adding a new endpoint in the backend: /api/patients/:id; and creating a new type: Entry.
+     - The endpoint has to return all the patient data, included the new type, entry, as an array.
+       - The array of entries will be empty for now.
+  3. **Exercise 9.21:**
+     - This was in the patientor (frontend) repo
+     - Adding a new page to show the patient data in the frontend. Also, if in the patientList, someone does click the patient, redirect to patient data corresponding to that patient.
+     - OPT: Use Material UI if you'd like.
+
+  - Links to the issues related:
+    - [Exercise 9.19](https://github.com/Lenoxo/diario-vuelo-Ilari-front/issues/6)
+    - [Exercise 9.20](https://github.com/Lenoxo/patientor-back/issues/1)
+    - [Exercise 9.21](https://github.com/Lenoxo/patientor/issues/1)
+
+Link to the repos used:
+
+1. [diario-vuelo-Ilari-front](https://github.com/Lenoxo/diario-vuelo-Ilari-front)
+2. [patientor-frontend](https://github.com/Lenoxo/patientor)
+
+3. [patientor-backend](https://github.com/Lenoxo/patientor-back)
+
+**Thoughts**: Today I practiced a lot more, but I noticed something, it should be obvious when you see it from outside but, it is very important to rest, every hour of focus followed by a break, I didn't respect that in the later parts of the day, and I really felt the loss of focus and the lack of productivity.
+
+So, as a personal rule, rest after working in programming at the most for an hour.
+
 ### Day 59: May 6, 2024
 
 **Today's Progress**:
