@@ -27,6 +27,51 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 62: May 9, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I practiced solving exercise 9.23 from Fullstack Open section of Typescript:
+
+  This exercise has to deal with the patientor frontend repo, adding in the patient page, a section with their entries, showing date, description and diagnosisCode properties dynamically.
+
+  What I did is first, adding the new component of PatientEntry, then, adding the types from the backend repo to the frontend, and lastly, adding some array.map, for the multiple children that PatientDetail (With several patient entries) and PatientEntry (With several diagnosis codes) can have.
+
+  - Links to the issue related:
+    - [Exercise 9.23](https://github.com/Lenoxo/patientor/issues/3)
+
+Link to the repos used:
+
+1. [patientor-frontend](https://github.com/Lenoxo/patientor)
+2. [patientor-backend](https://github.com/Lenoxo/patientor-back)
+
+**Thoughts**: Well, today I had to catchup these diary with what happened yesterday, because I had the weirdest but in Arch Linux. Mainly what happened is that when I went back to a prior snapshot in my btrfs file system, the /boot partition and the root partition had different kernel versions, so, when I rebooted I was dropped to an emergency terminal.
+
+I tried several things, the last resource I could use is reinstalling Arch Linux with a new ISO and copying my previous configs to the fresh system.
+
+And to prevent this issue to happen ever again, I modified the subvolumes used in the root partition, to also detect and recover changes in the /boot and /var partitions.
+
+### Day 61: May 8, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I practiced solving exercise 9.22 from Fullstack Open section of Typescript:
+
+  This exercise has to deal with:
+  - Adding two new types: HospitalEntry and OccupationalHealthcare, while ensuring the data is correctly sent as json for now
+  - Currently, the only validation that needs to pass, is that the type is correctly assigned to the data.
+
+  - Links to the issue related:
+    - [Exercise 9.22](https://github.com/Lenoxo/patientor-back/issues/3)
+
+Link to the repos used:
+
+1. [patientor-frontend](https://github.com/Lenoxo/patientor)
+2. [patientor-backend](https://github.com/Lenoxo/patientor-back)
+
+**Thoughts**: Just had enough time to do this little thing before something happened with my linux install... More details in the [May 9 thoughs](#day-62-may-9-2024)
+
+
 ### Day 60: May 7, 2024
 
 **Today's Progress**:
