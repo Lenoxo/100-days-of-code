@@ -45,7 +45,7 @@ Link to the repos used:
 1. [patientor-frontend](https://github.com/Lenoxo/patientor)
 2. [patientor-backend](https://github.com/Lenoxo/patientor-back)
 
-**Thoughts**: Well, today I had to catchup these diary with what happened yesterday, because I had the weirdest but in Arch Linux. Mainly what happened is that when I went back to a prior snapshot in my btrfs file system, the /boot partition and the root partition had different kernel versions, so, when I rebooted I was dropped to an emergency terminal.
+**Thoughts**: Well, today I had to catchup these diary with what happened yesterday, because I had the weirdest bug in Arch Linux. Mainly what happened is that when I went back to a prior snapshot in my btrfs file system, the /boot partition and the root partition had different kernel versions, so, when I rebooted I was dropped to an emergency terminal.
 
 I tried several things, the last resource I could use is reinstalling Arch Linux with a new ISO and copying my previous configs to the fresh system.
 
