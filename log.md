@@ -27,6 +27,27 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 63: May 10, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I practiced solving exercise 9.24 from Fullstack Open section of Typescript:
+
+  This exercise has to deal with:
+
+    - Adding in the frontend repo, a state for the diagnoses, fetching them from /api/diagnoses.
+    - Using that state to show the name of the diagnosis related to the specific patient diagnose.
+
+  - Links to the issue related:
+    - [Exercise 9.24](https://github.com/Lenoxo/patientor/issues/5)
+
+Link to the repos used:
+
+1. [patientor-frontend](https://github.com/Lenoxo/patientor)
+2. [patientor-backend](https://github.com/Lenoxo/patientor-back)
+
+**Thoughts**: Today I had a bit more time to practice, but I felt like I wasn't planning well how to code the solution for the last challenge, so, I'll see more ways to improve my problem solving skills tomorrow, for now, I can rest.
+
 ### Day 62: May 9, 2024
 
 **Today's Progress**:
