@@ -27,6 +27,29 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 64: May 11, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I practiced solving exercise 9.25 from Fullstack Open section of Typescript:
+
+  This exercise has to deal with:
+    - Adding a new component for the entryDetails
+    - It has to implement conditional rendering using the switch statement and exhaustive checking of entry.type
+    - It should be using MUI Icons to distinguish one entry type of another.
+
+  - Links to the issue related:
+    - [Exercise 9.25](https://github.com/Lenoxo/patientor/issues/7)
+
+Link to the repos used:
+
+1. [patientor-frontend](https://github.com/Lenoxo/patientor)
+2. [patientor-backend](https://github.com/Lenoxo/patientor-back)
+
+**Thoughts**: I had more troubles with my problem solving skills today, it took me about 2.5 hours to solve a simpler problem. Mainly because my first approach was incorrect.
+
+But for the upcoming days I'll be with my family, there are no pc's or devices to code where they live, so... I'll have to leave it for the Tuesday.
+
 ### Day 63: May 10, 2024
 
 **Today's Progress**:
