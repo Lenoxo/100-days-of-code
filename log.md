@@ -27,6 +27,60 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 66: May 15, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I had time to advance in the exercise 9.26 from Fullstack Open section of Typescript:
+
+  This exercise has to deal with:
+    - Adding a new endpoint in the backend: /api/patients/:id/entries, that receives POST resquests for adding entries related to the patient.
+    - Validate that the data received has the correct type, and associate it with the patient.
+
+  Today I advanced adding the functionality to add entries for a patient, it's working but what's missing is the data validation.
+
+  - Links to the issue related:
+    - [Exercise 9.26](https://github.com/Lenoxo/patientor-back/issues/5)
+
+Link to the repos used:
+
+1. [patientor-frontend](https://github.com/Lenoxo/patientor)
+2. [patientor-backend](https://github.com/Lenoxo/patientor-back)
+
+**Thoughts**: I applied the miniframework I told here in the diary yesterday and, it was very good, most of the frustration of not knowing where to start just banished, and I could advance a lot with just 1 hour I had to practice today.
+
+Anyway, I'll see how can I improve it more, or the tools that I use.
+
+
+### Day 65: May 14, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I just had time to merge the changes from exercise 9.25 from Fullstack Open section of Typescript:
+
+  This exercise has to deal with:
+    - Adding a new component for the entryDetails
+    - It has to implement conditional rendering using the switch statement and exhaustive checking of entry.type
+    - It should be using MUI Icons to distinguish one entry type of another.
+
+  - Links to the issue related:
+    - [Exercise 9.25](https://github.com/Lenoxo/patientor/issues/7)
+
+Link to the repos used:
+
+1. [patientor-frontend](https://github.com/Lenoxo/patientor)
+2. [patientor-backend](https://github.com/Lenoxo/patientor-back)
+
+**Thoughts**: I had less time to practice, and with all the distractions I can't handle for now, I tried to think how can I improve my approach to solve problems, and something came to my mind.
+
+Almost always I tried to think in the code and mix it with the logic in my head. Even if I didn't understood the problem well enough. That its really frustrating sometimes, because I go back and forward doing the same thing just changing minor details to make the code work.
+
+But, if I tackle sistematically a problem, its much easier to write the code, so, taking what I learned about problem solving, I would like to use this miniframework to solve problems by myself in programming:
+
+  1. **Decomposition of the problem:** focused on the desired results
+  2. **Pseudocode / logic planning:** focused on the programming logic
+  3. **Implementing the code:** Writing it the fastest way possible, after it is finished, you can look up how to improve it.
+
 ### Day 64: May 11, 2024
 
 **Today's Progress**:
