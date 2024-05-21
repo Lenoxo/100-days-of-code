@@ -27,6 +27,67 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 71: May 20, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I had time to finish the exercise 9.28 from Fullstack Open section of Typescript:
+
+  - This exercise has to deal with:
+
+    - Adding in the addEntry form, support for all the entry types.
+    - The entry types that are missing of support are:
+      - OccupationalHealthcare
+      - Hospital
+
+  - Link to the issue related:
+    - [Exercise 9.28](https://github.com/Lenoxo/patientor/issues/13)
+
+Links to the repos used:
+
+1. [patientor-frontend](https://github.com/Lenoxo/patientor)
+2. [patientor-backend](https://github.com/Lenoxo/patientor-back)
+
+**Thoughts**: Today I had a bit more time to practice, so I learned (actually, relearned) about git rebase, and the main rule to use it, which is `Not rebasing commits that are in the remote branches`
+
+### Day 70: May 19, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I had time to fix an error that arised in the patientor backend repo
+
+  - The error, or, better said, the errors that were happening are:
+    - The backend, didn't add the entry type in the final object of new entry.
+    - A weird but reasonable parsing error, that converted `!rating` to `true` when `rating === 0`.
+
+  The details of how I solved this errors are in the related issue:
+
+  - Link to the issue related:
+    - [Issue talking about the above errors](https://github.com/Lenoxo/patientor-back/issues/9)
+
+Links to the repos used:
+
+1. [patientor-frontend](https://github.com/Lenoxo/patientor)
+2. [patientor-backend](https://github.com/Lenoxo/patientor-back)
+
+**Thoughts**: I couldn't have much time to make more of the practice because some personal things happened, but at least, I learned how to not validate the non existing values when using numbers in JS.
+
+### Day 69: May 18, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I had time to fix the linting and formatting of the projects `patientor` and `patientor-back`, and merge the PR of the exercise-9.27 to main branch.
+
+  - Link to the issue related:
+    - [Exercise 9.27](https://github.com/Lenoxo/patientor/issues/11)
+
+Links to the repos used:
+
+1. [patientor-frontend](https://github.com/Lenoxo/patientor)
+2. [patientor-backend](https://github.com/Lenoxo/patientor-back)
+
+**Thoughts**: I couldn't have much time to make more of the practice because some personal things happened, but at least, the code is more legible.
+
 ### Day 68: May 17, 2024
 
 **Today's Progress**:
