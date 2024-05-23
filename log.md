@@ -27,6 +27,40 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 72: May 21, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I had time to finish the final exercise 9.29 from Fullstack Open section of Typescript:
+
+  - This exercise has to deal with:
+
+    - Adding to the AddEntry form, the right inputs for each field.
+    - As a tip:
+      - In the example, for the diagnosisCodes a `multiple select` component from MUI is used. And for dates; `date` input
+
+  - Link to the issue related:
+    - [Exercise 9.29](https://github.com/Lenoxo/patientor/issues/15)
+
+Links to the repos used:
+
+1. [patientor-frontend](https://github.com/Lenoxo/patientor)
+2. [patientor-backend](https://github.com/Lenoxo/patientor-back)
+
+**Thoughts**: During the planning session I didn't have any idea of how long would it be to finish this last part, if I refer to my plan it was quite easy, but the implementation, that was the tedious part for me.
+
+I only used Material UI in the patientor project, so I didn't know anything about how they managed the states, all the possible components and the props to personalize them.
+
+Combined with the use of `Day.js`, a library that I discovered today thanks to MUI docs, the implementation of the first DatePicker component took me an hour and half.
+
+And I understand the potential work saved by using these libraries, but it really felt overwhelming managing those details and also the lsp showing the same errors time to time, and the several reboots I had to do to make it work.
+
+I think that what I can improve for the next time is to add an extra time at the beginning of the focus sessions, after the planning, to investigate if there is something I need to apply (with a new library or a way to work I don't know), and see how other people face those challenges.
+
+Lastly, in this night, I'm quite happy, I managed to finish the last part of this project to accomplish my learning of Typescript according to my planning for this challenge, and starting tomorrow, I can fully focus on improving / creating my own projects to apply all these concepts I learned in 72 days of the challenge.
+
+Also, I can focus on practicing my English in Discord and Tandem, so, there are challenging but fun days to come, and lastly, put more effort on my job hunting.
+
 ### Day 71: May 20, 2024
 
 **Today's Progress**:
