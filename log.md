@@ -27,7 +27,48 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
-### Day 72: May 21, 2024
+### Day 74: May 24, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I had time to finish styling all the entry type fields of the patient entries, in patientor repo:
+
+  - It took much more time that expected for me, because my editor lsp was really slow, even when I fixed an eslint problem, it only showed as solved after 7 seconds, same thing with the autosuggestions.
+  - And combined with the above, I still have to experiment more with MUI to get the trick.
+  - I found a workaround for now, is an issue with nvim lsp performance in version `0.10.0`, and disabling the watcher for file changes seems to solve it, now the lsp reacts (intended pun) as expected (1 to 1.5 seconds after writting the autosuggestions and diagnosis updates)
+  - Here is the link for reference: [Reddit Thread](https://www.reddit.com/r/neovim/comments/161tv8l/lsp_has_gotten_very_slow/)
+  - Lastly, I managed to add the demo video to the repo too, because the same video I recorded for showing the changes in my last PR also fits for the situation :).
+
+  - Link to the issue related:
+    - [Add styles and icons to patientDetail](https://github.com/Lenoxo/patientor/issues/18)
+
+Links to the repos used:
+
+1. [patientor-frontend](https://github.com/Lenoxo/patientor)
+2. [patientor-backend](https://github.com/Lenoxo/patientor-back)
+
+**Thoughts**: I'm not going to stay up late again as I did today, it was an horrible idea, its better to wait to the night when I can have more time, and being Ok with having the things unfinished in the development, its a large process, I don't have to rush it in one night to get everything working, that's a free ticket to punish my health.
+
+### Day 73: May 23, 2024
+
+**Today's Progress**:
+
+- **Learning Typescript** Today I had time to finish styling the Base Entry fields of the patient entries, in patientor repo:
+
+  - It took much more time that expected for me, because my editor lsp was really slow, even when I fixed an eslint problem, it only showed as solved after 7 seconds, same thing with the autosuggestions.
+  - And combined with the above, I still have to experiment more with MUI to get the trick.
+
+  - Link to the issue related:
+    - [Add styles and icons to patientDetail](https://github.com/Lenoxo/patientor/issues/18)
+
+Links to the repos used:
+
+1. [patientor-frontend](https://github.com/Lenoxo/patientor)
+2. [patientor-backend](https://github.com/Lenoxo/patientor-back)
+
+**Thoughts**: I really want to fix that lag on the editing part, I also used VSCode to discard if it's an nvim lsp problem, but it doesn't work, same thing with replacing named import to default imports for MUI components and icons. Maybe my computer is getting too old to handle these kinds of libraries.
+
+### Day 72: May 22, 2024
 
 **Today's Progress**:
 
