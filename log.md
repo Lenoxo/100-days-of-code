@@ -27,6 +27,18 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 75: May 25, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects** Today I had time to add the patientor-back and front project details to my own website, to show them as projects that I worked with:
+
+Links to the repos used:
+
+1. [EmanuelDev](https://github.com/Lenoxo/EmanuelDev)
+
+**Thoughts**: Today I didn't have much time to practice, mainly because I was spending time with my family, that is really important too.
+
 ### Day 74: May 24, 2024
 
 **Today's Progress**:
