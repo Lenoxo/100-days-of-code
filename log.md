@@ -56,7 +56,7 @@ Links to the repos used:
 
 Links to the repos used:
 
-1. [EmanuelDev](https://github.com/Lenoxo/EmanuelDev)
+1. [HTML-CSS-JS-Challenges](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/challenges-in-process)
 
 **Thoughts**: These last 4 days I didn't have time to practice mainly because some personal things occurred, nothing to dangerous thankfully.
 
