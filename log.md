@@ -27,6 +27,41 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 77, June 1, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects** Today I had time to practice solving a bug in Reactify-Dashboard project:
+
+- This bug has to deal with the way the image url data comes from the Platzi Fake Store API. Because the students sometimes change the data format and causes errors when trying to parse the data in the app.
+
+- That is out of my control, but what I can control is handle the wrong format for the data, and hopefully, parse it to prevent the error.
+
+- That's what I did today, using regex, and `.replace()`.
+
+- More details in the related issue: [Link](https://github.com/Lenoxo/Reactify-Dashboard/issues/5)
+- Also, I had the opportunity to improve the configs of the project, excluding `node_modules` and `.next` folder in `jsconfig.json` and updating the `README.md` instructions to make it clear how to use the `.env` variables when you install and run the project locally.
+
+Links to the repos used:
+
+1. [Reactify-Dashboard](https://github.com/Lenoxo/Reactify-Dashboard)
+
+**Thoughts**: Today I had the idea to implement binary search for the product search by name, and later on, after fixing the above bug, I noticed that the idea was not viable, because the products name is unordered, and chaotic, making it a binary search in this case is not practical.
+
+### Day 76, May 31, 2024
+
+**Today's Progress**:
+
+- **Practicing with LeetCode** Today I had time to practice solving the insert sorted index problem from leetcode, and had the opportunity to recall how to use Binary Search:
+
+Links to the repos used:
+
+1. [EmanuelDev](https://github.com/Lenoxo/EmanuelDev)
+
+**Thoughts**: These last 4 days I didn't have time to practice mainly because some personal things occurred, nothing to dangerous thankfully.
+
+And as something to improve for the upcoming days, I have to stick with having a break after an hour of focused work / study, because I spent almost 3 hours trying to solve the problem from above.
+
 ### Day 75: May 25, 2024
 
 **Today's Progress**:
