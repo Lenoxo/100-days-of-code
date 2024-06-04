@@ -27,6 +27,24 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 78, June 3, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects** Today I had time to practice adding the first wiki page and organizing the first steps and initial commit to develop a new project for a relative of mine:
+
+- The project for now is called `mk-dashboard`, and focus on creating a new way to view the rounds in a local match of Mortal Kombat.
+
+- Adding a way to quickly register played matches and show them in a stylish way from the phone, I have a brief idea on how to develop the first page.
+
+- Also, I think it could be great to have custom profile photos and a design with glass morphism.
+
+Links to the repos used:
+
+1. [mk-dashboard](https://github.com/Lenoxo/mk-dashboard/wiki)
+
+**Thoughts**: My idea for the upcoming days is to practice interleaving this project (more focused on the frontend) and upgrading several of my backend projects, learning about trunk-based development, testing and Jenkins applied in those repos.
+
 ### Day 77, June 1, 2024
 
 **Today's Progress**:
