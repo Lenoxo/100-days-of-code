@@ -27,6 +27,24 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 79, June 4, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects** Today I had time to learn about Trunk-Based development:
+
+- It is a simplified Git workflow that ensures a rapid pace of development, while using CI/CD pipelines for testing small changes
+
+- It's compared to Gitflow which has long living branches with bigger changes between them, and Trunk-Based, which has the main / trunk branch with short living branches constantly merging changes.
+
+- This approach facilitates code reviews, avoiding cognitive overload thanks to the smaller changes getting merged. With automated testing, the code meets some specifications, and the reviewers / team focus can be driven to optimizations.
+
+- And is the standard method used for highly effective teams.
+
+- Also, I updated some of my projects, removing the inactive branches, following this workflow.
+
+**Thoughts**: For me, this workflow is curious, because I was implicitly applying some of the best practices it recommends, but thanks to today's learning, I noticed that I have a lot to improve in the CI/CD integration and managing the testing.
+
 ### Day 78, June 3, 2024
 
 **Today's Progress**:
