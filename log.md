@@ -27,6 +27,16 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 80, June 7, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects** Today I had time to advance creating the MVP, organizing how I will start developing the base features and styling some components inf index.tsx in mk-dashboard:
+
+- It took me a bit more time than expected, because first I wanted to implement BEM in the react project, but then realized that I could use CSS modules within each component, that would be easier.
+
+**Thoughts**: While developing this project, I look forward to implement Trunk-Based development, but I consider if I want to follow it, I have to divide the upcoming project parts into smaller chunks, because the first one I created was a bit to large to effectively apply it.
+
 ### Day 79, June 4, 2024
 
 **Today's Progress**:
