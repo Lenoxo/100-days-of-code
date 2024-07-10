@@ -27,6 +27,14 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 81, June 8, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects** Today I had time to practice with my first steps learning about the singleton pattern, and trying to write an example to use it from scratch
+
+**Thoughts**: Today I almost had no time to practice, but hopefully in the upcoming days I'll have more time to dedicate to it.
+
 ### Day 80, June 7, 2024
 
 **Today's Progress**:
