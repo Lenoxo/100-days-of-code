@@ -27,6 +27,62 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 84, July 18, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects** Today I had time to practice updating the documentation and trying to resolve a bug I had while updating my DevsShop API project.
+
+Well, the problem is better explained in the [issue 6](https://github.com/Lenoxo/DevShop/issues/10) of the project, but briefly what happened is this:
+
+1. I wanted to make a better documentation for the first steps when using the API, because it took me a while to remember how to work with it.
+2. So, I updated the documentation and decided to merge it with another change I considered relevant, to make the environment variables names simpler in the project.
+
+3. Then, I changed them and made a PR and merge it, but when I noticed in the API logs from Render, the error of sequelizecli came back.
+
+4. This time, I decided to search for this particular error, and finally found the reason why it was happening in the first place;
+   The sequelize config requires to define the explicit names used as values in `NODE_ENV` as cases to use one or other connection config to connect to the database.
+
+And when there are inconsistencies in the names used, the cli throws that error.
+
+In order to solve it, you have to make sure that you use the same name for both sequelize config returned json and your environment variable `NODE_ENV` value.
+
+Links to the repos used:
+
+1. [DevShop API](https://github.com/Lenoxo/DevShop)
+
+**Thoughts**: Looking back, it was a silly mistake, but I suppose that from time to time everyone has these kind of mistakes, the most important thing is to not repeat it, and, as someone I appreciate says: "Al mal tiempo, buena cara".
+
+### Day 83, July 17, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects** Today I had time to practice trying to resolve a bug I had while updating my DevsShop API project.
+
+Well, the problem is better explained in the [issue 6](https://github.com/Lenoxo/DevShop/issues/10) of the project, but briefly what happened is that I tried to replicate the issue in my local environment using docker containers for the db, and managed to solve it by changing the value of `NODE_ENV='production'`
+
+Links to the repos used:
+
+1. [DevShop API](https://github.com/Lenoxo/DevShop)
+
+**Thoughts**: I still can't get it why this was happening, and also, had to clear several times the data of the db locally to ensure that it was an error with the environment variables.
+
+### Day 82, July 16, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects** Today I had time to practice trying to resolve a bug I had while updating my DevsShop API project.
+
+Well, the problem is better explained in the [issue 6](https://github.com/Lenoxo/DevShop/issues/10) of the project, but briefly what happened is that I noticed that the deploys made in Render were using the development environment rather than the URI connection to the internal database with Render.
+
+So I decided to update the `NODE_ENV='prod'` variable in my settings, and then had an error with sequelizecli telling that the dialect has to be explicitly supplied, and after hours of trial and error, and messing around with the environment variables, I had another error.
+
+Links to the repos used:
+
+1. [DevShop API](https://github.com/Lenoxo/DevShop)
+
+**Thoughts**: Currently I can't solve the problem, but maybe tomorrow I'll be able to make it.
+
 ### Day 81, June 8, 2024
 
 **Today's Progress**:
