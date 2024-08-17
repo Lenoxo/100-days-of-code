@@ -27,6 +27,20 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 85, August 16, 2024
+
+**Today's Progress**:
+
+- **Practicing with Personal Projects**
+
+Links to the repos used:
+
+1. [DevShop API](https://github.com/Lenoxo/DevShop)
+
+**Thoughts**: Well, almost a month since the last time I wrote this diary, and mainly this part have been read only by me, so, I'd like to tell for future reference a bit of details explaining the absence; In the first week I left mainly because familiar circumstances just occurred, in the second one, I didn't prioritize the code practice at all and that's my fault, and lastly, these last couple of weeks I've been sick with a relatively heavy flu, I'm recovering now and with all the time I had thinking in bed while sick I have an idea to change my approach not only to this challenge, but other aspects in my life, to be more honest with the things I like to do, and disconnect of all the other stuff that doesn't help me to make my life and the people around me better.
+
+PD: The fingers feel weird after not writing at this pace for a while, but I hope it stops soon :).
+
 ### Day 84, July 18, 2024
 
 **Today's Progress**:
