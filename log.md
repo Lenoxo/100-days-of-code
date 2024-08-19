@@ -27,11 +27,25 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 86, August 18, 2024
+
+**Today's Progress:**
+
+- **Practicing with Personal Projects:** Today I advanced with Mk Project, adding the basic style with dummy data to the TopBar component in the main page.
+
+Links to the repos used:
+
+1. [mk-dashboard](https://github.com/Lenoxo/mk-dashboard)
+
+**Thoughts**: I had just an hour to practice today but I'm glad I did it, and I've been with my family so there is no real problem with having less time to practice, the important thing is to advance everyday.
+
+PD: I'm almost recovered of the flu I had, hope I'm fully recovered tomorrow.
+
 ### Day 85, August 16, 2024
 
 **Today's Progress**:
 
-- **Practicing with Personal Projects**
+- **Practicing with Personal Projects:** I did some maintenance to my project DevShop, updating the db connected to a new one because with the free render plan every 30 days the db gets suspended, so I have to create a new one from render dashboard.
 
 Links to the repos used:
 
