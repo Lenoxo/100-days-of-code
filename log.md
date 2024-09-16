@@ -27,6 +27,24 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 87, September 15, 2024
+
+**Today's Progress:**
+
+- **Learning Design Patters** Today I learned about the Builder pattern, and made a small working example using JS.
+
+The example uses a Pizza class, a PizzaBuilder class and the client code to showcase how to use the design pattern.
+
+It is at `src/TS-challenges/patrones-de-diseño/builder.js`
+
+Links to the repos used:
+
+1. [HTML-CSS-JS-Challenges](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/challenges-in-process)
+
+**Thoughts**: During the last couple of weeks a lot of things happened, the internet service was down, problems with the PC and mainly intermittency with my consistency doing the challenge.
+
+So, In order to be honest with the advancements I've made, in tomorrow's diary, I'll be wrapping up what I've done during that intermittency time.
+
 ### Day 86, August 18, 2024
 
 **Today's Progress:**
