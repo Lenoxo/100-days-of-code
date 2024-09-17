@@ -27,6 +27,37 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 88, September 16, 2024
+
+**Today's Progress:**
+
+I will resume what are my current advancements from the last day, talking about what I did during the intermittency time:
+
+1. **Learning Design Patterns**: I've learned and practiced a bit with the Singleton pattern, but I still don't know how to write a simple enough example of it in Typescript. And also, I've practiced with the Builder pattern as I said yesterday.
+
+2. **Practicing with personal projects**:
+
+- I did some advancements in Mk-dashboard, at least I have a reference UI coded, with the TopBar, FightResult and AddFight components added with dummy data.
+
+- I updated the render DB for DevShop again, and now that I notice, I have to do it again today...
+
+- I experienced a bit writing C++ code, but decided to focus first on the least amount of technologies that give me the highest possibilty to get my first job.
+
+  - That is, focus in AWS, and CI / CD pipelines with Github Actions and tools like Jenkins, and also, testing, but that one I'm not sure what to pick.
+  - I talk about these because on my own research of the job market here in Colombia, the companies ask for these technologies, and also Java.
+
+- I did some reviewing on my Node.js fundamentals, like working with streams and buffers, differences between using callbacks, async / await and promises, what is the Event Loop and how it works, and modules that come with Node.js to make your life easier when working with files, reading OS data, invoking new processes, and debugging.
+
+Links to the repos used:
+
+1. [HTML-CSS-JS-Challenges](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/challenges-in-process)
+2. [Mk-dashboard current issue](https://github.com/Lenoxo/mk-dashboard/issues/1)
+3. [node-fundamentos](https://github.com/Lenoxo/node-fundamentos)
+
+**Thoughts**: Uff, that was a lot of writing in one go, my hands are tired, so I'll do the updates to have DevShop working and start my night cycle.
+
+And today I didn't advance in my programming projects because I spen't almost and hour doing some programming things related to job hunting.
+
 ### Day 87, September 15, 2024
 
 **Today's Progress:**
