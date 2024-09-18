@@ -27,6 +27,18 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 89, September 17, 2024
+
+**Today's Progress:**
+
+1. **Learning Design Patterns and More**: I've practiced more with the Builder pattern, now I added a Director class and finally completely understood the concept to the point where I'm comfortable with it.
+
+Links to the repos used:
+
+1. [HTML-CSS-JS-Challenges](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/challenges-in-process)
+
+**Thoughts**: It has been a good day, I just had an hour and a half to practice programming, but I'm happy with the progress.
+
 ### Day 88, September 16, 2024
 
 **Today's Progress:**
