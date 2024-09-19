@@ -27,6 +27,20 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 91, September 19, 2024
+
+**Today's Progress:**
+
+1. **Practicing with personal projects**: I did some advancements in Mk-dashboard, changing the dummy data hardcoded in the FightResult component to a dynamically written one.
+
+For now, I use `profileData.history.map` to create a new FightResult component, and pass by props the current fight data and the characters images.
+
+Links to the repos used:
+
+[Mk-dashboard current issue](https://github.com/Lenoxo/mk-dashboard/issues/9)
+
+**Thoughts**: Today I only had 1 hour to practice and write this diary, but tomorrow I hope to have some more.
+
 ### Day 90, September 18, 2024
 
 **Today's Progress:**
