@@ -27,6 +27,25 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 90, September 18, 2024
+
+**Today's Progress:**
+
+1. **Practicing with personal projects**: I did some advancements in Mk-dashboard, adding three main states and two derivated ones:
+
+- profileData: That saves the player's nickname, imageUrl, rivals list, and history of fights.
+- currentDayFights: For now is empty, but I plan to make a filter based on `profileData.history` array to show only the fights that happened in the current day.
+- charactersData: It's an array of objects, and each object has a name and imageUrl, for showing the character of MK. For now, it has subzero and skorpion.
+
+And the two derivated are:
+victoryCounter and defeatCounter, and I make the counting using a `.forEach` in `profileData.history` and show the dynamic data in TopBar, passed using props.
+
+Links to the repos used:
+
+[Mk-dashboard current issue](https://github.com/Lenoxo/mk-dashboard/issues/2)
+
+**Thoughts**: Today I had a bit of lazyness, but not too much to be worried about. And also, I continued in the AWS course I talked yesterday but noticed that I need to register a credit card in order to complete the profile creation. And because I'm currently doing job hunting for the first job, it's not worth adding it in my opinion, so I'll be focusing in other abilities like practicing more DSA and learning about testing / github actions for CI / CD.
+
 ### Day 89, September 17, 2024
 
 **Today's Progress:**
