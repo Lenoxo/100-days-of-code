@@ -27,6 +27,26 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 92, September 20, 2024
+
+**Today's Progress:**
+
+1. **Practicing with personal projects**:
+
+- Today I had time to add type safety, fix some things I made wrong using BEM CSS architecture, and start working with the addFight functionality.
+
+- It is a WIP for now, and I managed to add the Modal with a very basic form without styles.
+
+- All these things were made in Mk-dashboard
+
+2. **Learning Data Structures and Algorithms**: As I said the day before yesterday, I'll be trying to improve more with my DSA proficiency, so I did some recall about Linked Lists, Queues and Stacks, what they are and how to use them.
+
+Links to the repos used:
+
+[Mk-dashboard current issue](https://github.com/Lenoxo/mk-dashboard/issues/15)
+
+**Thoughts**: It was a day with it's highs and lows, but overall, I'm happy with the progress.
+
 ### Day 91, September 19, 2024
 
 **Today's Progress:**
