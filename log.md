@@ -27,6 +27,22 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 93, September 21, 2024
+
+**Today's Progress:**
+
+1. **Practicing with personal projects**:
+
+- Today I had time to add the basic functionality for adding a new fight data, with type safety, and planned what to do next for tomorrow.
+
+Links to the repos used:
+
+[Mk-dashboard link](https://github.com/Lenoxo/mk-dashboard)
+
+**Thoughts**: Today I spent some time of the afternoon and evening with my family, so I didn't have time to practice with Arrays and ArrayLists, but I hope that for the Monday I'll have a bit more time.
+
+For the meantime, I would like to focus on the importance of disconnecting and doing something else, to have your brain in the diffuse thinking mode, that incentivizes neuroplasticity and also consolidation for learning.
+
 ### Day 92, September 20, 2024
 
 **Today's Progress:**
