@@ -27,6 +27,22 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 94, September 22, 2024
+
+**Today's Progress:**
+
+1. **Practicing with personal projects**:
+
+- Today I had time to replace the inputs type text with selects that dynamically render the options depending on the existing `charactersData` and `profileData.rivals` states.
+
+- Also, I added a basic style for the form, later on, I'd like to add it glassmorphism.
+
+Links to the repos used:
+
+[Mk-dashboard current issue](https://github.com/Lenoxo/mk-dashboard/issues/19)
+
+**Thoughts**: Today I remembered a bit of why I don't like to write plain CSS, I'm not a person that makes greats designs, but I can manage to write some decent CSS with enough time.
+
 ### Day 93, September 21, 2024
 
 **Today's Progress:**
