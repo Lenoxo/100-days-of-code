@@ -27,6 +27,22 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 95, September 23, 2024
+
+**Today's Progress:**
+
+1. **Practicing with personal projects**:
+
+- Today I had time to add the image rendering for the characters images in NewFightForm, also, planned what to do next regarding on `/profile` endpoint.
+
+- Also, I tried to make a practice with Arrays / ArrayBuffers with an example I asked to ChatGPT but I'm still trying to solve it while I'm writing this.
+
+Links to the repos used:
+
+[Mk-dashboard current issue](https://github.com/Lenoxo/mk-dashboard/issues/23)
+
+**Thoughts**: Well, this is a thing that takes some time to me for now, trying to work with arrays in JS when you're messing around with the offset and encoding between UTF-8 and UTF-16
+
 ### Day 94, September 22, 2024
 
 **Today's Progress:**
