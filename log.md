@@ -27,6 +27,24 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 96, September 24, 2024
+
+**Today's Progress:**
+
+1. **Practicing with personal projects**: In Mk-dashboard:
+
+- Today I had time to add a very basic aside that right now looks more like a nav, and also added the `/profile` page, with a basic component and route handling using `react-router-dom`
+
+2. **Learning Design Patters**: I had a bit of time to read about the Prototype pattern, I hope to implement it with a small example / challenge to practice it.
+
+Links to the repos used:
+
+[Mk-dashboard current issue](https://github.com/Lenoxo/mk-dashboard/issues/24)
+
+**Thoughts**: One thing I would like to change tomorrow for Mk-dashboard is replacing the current nav tag in TopBar for a header one, because I'll be using a sidebar later on, and I consider that using the nav tag for this last one is more logic / readable.
+
+Also, I finished the Array / ArrayLists reviewing of yesterday, and also saw the Nerdearla event virtually, it had fun things.
+
 ### Day 95, September 23, 2024
 
 **Today's Progress:**
