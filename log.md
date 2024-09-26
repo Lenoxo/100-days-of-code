@@ -27,6 +27,24 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 97, September 25, 2024
+
+**Today's Progress:**
+
+1. **Practicing with personal projects**: In Mk-dashboard:
+
+- Today I had time to add a very basic QuickInfo component in the profile page, with basic styles and got everything ready to add the other to main components soon.
+
+- Also, I noticed that is a good idea to start using react context, because I reached the point when there are grandfather components that have to send data to grandson components. And having only one source of data is easier to manage (BTW, is just me or React Context can be seen as an implementation of a Singleton?).
+
+- Finally, I fixed a bug that was related with the image orientation, so now, I added some images to imgur with the characters, and render them like they are, or flipped horizontally if is the second character.
+
+Links to the repos used:
+
+[Mk-dashboard current issue](https://github.com/Lenoxo/mk-dashboard/issues/27)
+
+**Thoughts**: I had to do some things outside of programming today, so I didn't have time to practice with the Prototype pattern, hope I can do it tomorrow.
+
 ### Day 96, September 24, 2024
 
 **Today's Progress:**
