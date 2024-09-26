@@ -43,7 +43,7 @@ Links to the repos used:
 
 [Mk-dashboard current issue](https://github.com/Lenoxo/mk-dashboard/issues/27)
 
-**Thoughts**: I had to do some things outside of programming today, so I didn't have time to practice with the Prototype pattern, hope I can do it tomorrow.
+**Thoughts**: I had to do some things outside of programming today that just came around that just came around, so I didn't have time to practice with the Prototype pattern, hope I can do it tomorrow.
 
 ### Day 96, September 24, 2024
 
