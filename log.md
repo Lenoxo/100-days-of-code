@@ -27,6 +27,22 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 98, September 26, 2024
+
+**Today's Progress:**
+
+1. **Practicing with personal projects**: In Mk-dashboard:
+
+- Today I had time to add a very basic RivalQuickInfo component in the profile page, with basic styles, for now they have dummy data, but I look forward to add the dynamic data after refactoring adding react context to the app.
+
+2. **Learning Design Patters**: I had some time to try to implement the prototype pattern, but I don't feel I clearly understand how to apply it for now, so tomorrow I want to try to make another example / generate one small challenge with ChatGPT to learn it better.
+
+Links to the repos used:
+
+[Mk-dashboard current issue](https://github.com/Lenoxo/mk-dashboard/issues/29)
+
+**Thoughts**: I had some time to talk with other devs and realized that after this challenge comes to an end, for my career growth, I have to learn to use a low level language, mainly for it's fundamentals, and how using one teaches you how the computer performs it's action with more detail.
+
 ### Day 97, September 25, 2024
 
 **Today's Progress:**
