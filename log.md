@@ -27,6 +27,24 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 99, September 27, 2024
+
+**Today's Progress:**
+
+1. **Practicing with personal projects**: In Mk-dashboard:
+
+- Today I had time to add a very basic AddRival button and it's header component in the profile page, with basic styles, for now they have dummy data, but I look forward to add the dynamic data after refactoring adding react context to the app, that is my main focus tomorrow related to this project.
+
+2. **Learning Design Patters**: I had some time to implement the Prototype pattern and I finally understood how to apply it, I made a challenge with some futuristic vehicles to apply the pattern.
+
+Links to the repos used:
+
+[HTML-CSS-JS-Challenges](https://github.com/Lenoxo/HTML-CSS-JS-challenges/tree/challenges-in-process)
+
+[Mk-dashboard current issue](https://github.com/Lenoxo/mk-dashboard/issues/29)
+
+**Thoughts**: Today I had some time in the afternoon so I did all the programming on those hours, it went fine.
+
 ### Day 98, September 26, 2024
 
 **Today's Progress:**
