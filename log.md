@@ -27,6 +27,22 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Day 100, September 28, 2024
+
+**Today's Progress:**
+
+1. **Practicing with personal projects**: In Mk-dashboard:
+
+- Today I had time to refactor all the app to use React Context when it's needed, with type safety.
+
+- I also solved a bug I had back when I used some svg icons from Hero Icons.
+
+Links to the repos used:
+
+[Mk-dashboard current issue](https://github.com/Lenoxo/mk-dashboard/issues/34)
+
+**Thoughts**: Today I finish the challenge, I feel good about it, but currently I almost have no time to comment / reflect, so tomorrow I hope to give my final thoughts and next steps.
+
 ### Day 99, September 27, 2024
 
 **Today's Progress:**
