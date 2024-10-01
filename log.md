@@ -57,6 +57,16 @@
 
 - More networking. Because the tech field is what it is thanks to the collaboration between all the people that are involved in it. And until very recently I've been trying to improve in the social aspect, sharing ideas with other devs, learning from others, it's very important, and I underestimated it's value for some time.
 
+#### Next steps
+
+- I will focus on applying the things I consider I could do better.
+
+- I will keep learning about DSA and Design Patterns, and try to look for projects where I can use them.
+
+- Advancements / Things that I consider could be helpful will be posted in my social media.
+
+- Maybe in a couple of months, I will try again to go through this challenge again.
+
 ### Day 100, September 28, 2024
 
 **Today's Progress:**
