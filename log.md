@@ -27,6 +27,36 @@
 
 <img width="190px" src="https://ih1.redbubble.net/image.1438467887.4273/flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg">
 
+### Final Day, September 30, 2024
+
+**Thoughts**
+
+#### What I achieved with the challenge and the plan made from day 0:
+
+1. **Learning about DSA**: I did learn what are the most used data structures and algorithms, using the Frontend Masters course with the PrimeAgen.
+
+2. **Learning about Docker**: I did learn from the most basic concepts like virtualization, to more advanced like communication between containers, using the Platzi Course.
+
+3. **Learning how to use TypeScript**: I did learn from the most basic things, to a bit more intermedium concepts, like using enums to check in runtime if the incoming data is correctly typed. I used the TypeScript docs and the FullStack Open section dedicated to TypeScript.
+
+4. **Building side projects**: I did improve some of them, my portfolio and started a new one from scratch, Mk-dashboard.
+
+5. **Extra: Learning about Design Patterns**: I added this 15 days back (give or take a few), and currently I learned how to use some Creational Patterns: Singleton, Prototype and Builder. Using Refactoring Guru website and ChatGPT to generate small practice challenges.
+
+#### What I consider that worked
+
+- The compromise imposed by using a diary, and publishing my advancements in social media.
+
+- The idea of the limit of 1 hour to code / learn about programming everyday, because it helps to form an habit of constant improvement in the field.
+
+#### What I consider I could do better
+
+- Disconnection. Because sometimes I procrastinated advancing in the challenge to do something else, and recently I've been applying a heavier disconnection from all the things that don't help me to grow, and combining this disconnection for setting up an environment that only lets you keep improving, with the challenge, is what I consider I could do better the most.
+
+- Applying more study techniques that help me encode better the information in my brain, and more free recall, to ensure that I still remember what I studied.
+
+- More networking. Because the tech field is what it is thanks to the collaboration between all the people that are involved in it. And until very recently I've been trying to improve in the social aspect, sharing ideas with other devs, learning from others, it's very important, and I underestimated it's value for some time.
+
 ### Day 100, September 28, 2024
 
 **Today's Progress:**
